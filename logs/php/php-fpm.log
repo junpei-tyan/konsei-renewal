@@ -20,13 +20,10 @@
 [12-Apr-2025 14:14:27] NOTICE: exiting, bye-bye!
 [12-Apr-2025 14:16:15] NOTICE: fpm is running, pid 41642
 [12-Apr-2025 14:16:15] NOTICE: ready to handle connections
-[15-Apr-2025 18:43:52] NOTICE: Terminating ...
-[15-Apr-2025 18:43:52] NOTICE: Terminating ...
-[15-Apr-2025 18:43:52] NOTICE: exiting, bye-bye!
-[15-Apr-2025 18:43:55] NOTICE: fpm is running, pid 51298
-[15-Apr-2025 18:43:55] NOTICE: ready to handle connections
-[15-Apr-2025 21:50:46] NOTICE: Terminating ...
-[15-Apr-2025 21:50:46] NOTICE: Terminating ...
-[15-Apr-2025 21:50:46] NOTICE: exiting, bye-bye!
-[16-Apr-2025 07:58:53] NOTICE: fpm is running, pid 4869
-[16-Apr-2025 07:58:53] NOTICE: ready to handle connections
+[16-Apr-2025 22:19:22] NOTICE: fpm is running, pid 90019
+[16-Apr-2025 22:19:22] NOTICE: ready to handle connections
+[16-Apr-2025 23:43:46] NOTICE: Terminating ...
+[16-Apr-2025 23:43:46] NOTICE: Terminating ...
+[16-Apr-2025 23:43:46] NOTICE: exiting, bye-bye!
+[16-Apr-2025 23:44:14] NOTICE: fpm is running, pid 15535
+[16-Apr-2025 23:44:14] NOTICE: ready to handle connections
