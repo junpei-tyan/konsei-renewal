@@ -14,13 +14,13 @@
 </head>
 <body>
   <header>
-    <a href="#" class="header-logo">
+    <a href="<?php echo home_url() ?>" class="header-logo">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="logo-image" class="header-logo-image">
     </a>
     <div class="header-nav-container">
       <nav>
         <ul class="header-nav">
-          <li><a href="#">絞りについて</a></li>
+          <li><a href="">絞りについて</a></li>
           <li><a href="#">体験紹介</a></li>
           <li><a href="#">ワークショップ</a></li>
           <li><a href="#">活動実績</a></li>

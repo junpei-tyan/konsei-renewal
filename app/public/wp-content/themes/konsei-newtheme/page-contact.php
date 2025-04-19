@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+  /*
+  Template Name: About Page
+  */
+  get_header(); 
+?>
 
 <!-- 【お問い合わせ】ページ -->
 
