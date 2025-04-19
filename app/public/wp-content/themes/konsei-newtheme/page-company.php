@@ -8,7 +8,7 @@
 
 
 <main>
-    <p>編集テスト</p>
+    <p>編集</p>
     <div class="page_title">
         <h2>会社概要</h2>
         <!-- bgにする -->
