@@ -1,0 +1,119 @@
+.about-firstview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+    color: #fff;
+    background: url(../images/experoence-contact-firstview.png) no-repeat center center;
+  }
+  .about-firstview h1 {
+    position: absolute;
+    font-size: var(--xl-text-size);
+    font-weight: 500;
+  }
+  .about-firstview h1::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 5px;
+    background: #fff;
+    border-radius: 1px;
+    height: 2px;
+  }
+
+.top-section{
+  background-color: var(--accent-light-color);
+}
+
+  .top-section_intro{
+    font-size: var(--md-text-size);
+    line-height: 36px;
+    padding: 40px 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+
+.narumi-section{
+  padding: 80px 20px;
+}
+
+  .narumi-section__title{
+    text-align: center;
+    font-size: var(--lg-text-size);
+    padding-bottom:20px;
+  }
+
+  .narumi-section__intro{
+    font-size:var(--md-text-size);
+    text-align: center;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom:40px;
+  }
+
+  
+  .narumi-section__subtitle {
+    font-size: var(--md-text-size);
+    color: var(--accent-color);
+    margin-bottom: 16px;
+  }
+
+
+  .narumi-section__item {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    flex-wrap: wrap; 
+  }
+  
+  .narumi-section__image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .narumi-section__image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .narumi-section__text {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+
+.process-section{
+  background-color: var(--accent-light-color);
+  padding:80px 20px;
+}
+
+  .process-section__title{
+    text-align: center;
+    font-size: var(--lg-text-size);
+  }
+
+  .process-section__intro{
+    font-size:var(--md-text-size);
+    text-align: center;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom:20px;
+  }
+
+  .step{
+    padding:20px;
+  }
+
+  .step_box{
+    background-color: var(--base-color);
+    padding:40px 20px;
+    width:581px;
+    height:471px;
+  }
+
