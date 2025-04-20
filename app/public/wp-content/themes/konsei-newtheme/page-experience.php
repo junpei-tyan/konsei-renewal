@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
-<!-- 【体験紹介】ページ -->
+<main>
+  <h1>Experience Page</h1>
+</main>
 
 <?php get_footer(); ?>

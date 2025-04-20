@@ -111,7 +111,7 @@
   </div>
   <div class="contact-link-section">
     <div>
-      <a href="#">お問い合わせ・よくある質問はこちら</a>
+      <a href="<?php echo home_url() ?>/info">お問い合わせ・よくある質問はこちら</a>
     </div>
   </div>
 

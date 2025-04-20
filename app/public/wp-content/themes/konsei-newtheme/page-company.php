@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
-<!-- 【会社概要】ページ -->
+<main>
+  <h1>Company Page</h1>
+</main>
 
 <?php get_footer(); ?>

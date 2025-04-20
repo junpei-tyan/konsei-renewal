@@ -5,6 +5,7 @@
   --accent-light-color: #CCDDEB;
   --base-color: #F7F7F7;
   --emphasis-color: #FF2B2B;
+  --gray-color: #999999;
 
   --main-text-size: 16px;
   --md-text-size: 24px;
@@ -50,6 +51,11 @@ button {
 
 /* ========== ↓ global ↓ ========== */
 
+main {
+  position: relative;
+  top: 80px;
+}
+
 .sns-icons {
   display: flex;
   width: 90px;
@@ -81,10 +87,15 @@ button {
 
 header {
   display: flex;
+  position: fixed;
+  top: 0;
+  width: calc(90% - 20px);
   height: 80px;
   padding: 0 84px;
   background: var(--accent-color);
   justify-content: space-between;
+  box-shadow: #3a3737 0 0 8px;
+  z-index: 100;
 }
 
 .header-logo {
@@ -143,6 +154,8 @@ header {
 /* ========== ↓ footer ↓ ========== */
 
 footer {
+  position: relative;
+  top: 80px;
   padding: 45px 0 0 0;
   color: #fff;
   height: 420px;
@@ -331,6 +344,9 @@ footer {
 }
 .offer-form__people-fields select {
   width: 167px;
+}
+.offer-form__remarks-fields span {
+  background: var(--gray-color);
 }
 .offer-form__remarks-fields textarea {
   height: 200px;
