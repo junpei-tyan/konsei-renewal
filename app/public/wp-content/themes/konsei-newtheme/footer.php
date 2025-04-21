@@ -5,8 +5,8 @@
       </a>
     </div>
     <div class="footer-text">
-      <h4>有限会社こんせい</h4>
-      <p>〒458-0801 名古屋市緑区鳴海町字下中21番地</p>
+      <h4 data-i18n="footer-title">有限会社こんせい</h4>
+      <p data-i18n="footer-text">〒458-0801 名古屋市緑区鳴海町字下中21番地</p>
       <p>TEL.052-624-0029</p>
     </div>
     <div class="sns-icons">

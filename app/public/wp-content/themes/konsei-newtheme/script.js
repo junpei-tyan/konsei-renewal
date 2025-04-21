@@ -14,6 +14,9 @@ function loadLanguage(lang) {
 
       currentLang = lang;
 
+      document.body.classList.remove('lang-ja', 'lang-en');
+      document.body.classList.add(`lang-${lang}`);
+
       const btn = document.getElementById("langSwitcher");
       btn.textContent = lang === "ja" ? "JP / EN" : "JP / EN";
     })
@@ -28,7 +31,6 @@ document.getElementById("langSwitcher").addEventListener("click", () => {
   const nextLang = currentLang === "ja" ? "en" : "ja";
   loadLanguage(nextLang);
 });
-
 
 document.getElementById("pageTopBtn").addEventListener("click", function() {
   window.scrollTo({

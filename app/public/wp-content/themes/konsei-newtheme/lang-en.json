@@ -6,7 +6,7 @@
   "header-nav-item5": "Company",
   "header-nav-item6": "Contact Us",
 
-  "offer-link-text": "Click here to make a reservation",
+  "offer-link-text": "Book now!",
 
   "first-view-text": "Arimatsu-Narumi Shibori",
 
@@ -51,5 +51,8 @@
   "top-access-text2": "If using a car navigation system, please enter the following address:",
   "top-access-text3": "22 Shimonaka, Narumi-cho, Midori-ku, Nagoya City",
   "top-access-text4": "Parking available (see left diagram)",
-  "top-access-text5": "Approx. 3-minute walk from Meitetsu Narumi Station (East Exit)"
+  "top-access-text5": "Approx. 3-minute walk from Meitetsu Narumi Station (East Exit)",
+
+  "footer-title" : "Konsei Co., Ltd.",
+  "footer-text": "21 Shimonaka, Narumicho, Midori-ku, Nagoya 458-0801, Japan"
 }

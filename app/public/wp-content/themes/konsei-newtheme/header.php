@@ -38,6 +38,6 @@
       </a>
     </div>
     <div class="header-lang-switcher">
-      <button id="langSwitcher">JP / EN</button>
+      <button >JP / EN</button>
     </div>
   </header>
