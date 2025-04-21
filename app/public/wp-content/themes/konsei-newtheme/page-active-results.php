@@ -7,7 +7,6 @@
 ?>
 
 <!-- 【活動実績】ページ -->
-
 <main>
   <div class="active-results-firstview">
     <h1>活動実績</h1>
@@ -22,12 +21,50 @@
     </div>
   </div>
 
-  <div class="results_card">
-    <div class="results_title"> 
+  <div class="events-section">
+    <div class="results_card">
+      <div class="results-section__title"> 
+        ①体験イベント
+      </div>
+      <div class="results-section__intro">
+        体験活動することで様々な人に喜んでもらえる！
+      </div>
+    </div>
+  </div>
+
+  <div class="events-section">
+    <div class="results_card">
+      <div class="results-section__title"> 
+        ②自社製品
+      </div>
+      <div class="results-section__intro">
+        ─ 絞りの魅力を日常に ─
+      </div>
+    </div>
+  </div>
+
+  <div class="events-section">
+    <div class="results_card">
+      <div class="results-section__title"> 
+        ③新商品開発
+      </div>
+      <div class="results-section__intro">
+        体験活動することで様々な人に喜んでもらえる！
+      </div>
+    </div>
+  </div>
+
+  <div class="events-section">
+    <div class="results_card">
+      <div class="results-section__title"> 
+        ④OEM生産
+      </div>
+      <div class="results-section__intro">
+        アパレル商品（OEM）/ 京都の SOU・SOU 商品
+      </div>
     </div>
   </div>
 
 </main>
-
 
 <?php get_footer(); ?>
