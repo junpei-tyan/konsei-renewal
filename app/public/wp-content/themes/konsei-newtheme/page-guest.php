@@ -1,13 +1,13 @@
-<?php 
+<?php
   /*
-  Template Name: Company Page
+  Template Name: Guest Page
   */
 
   get_header(); 
 ?>
 
 <main>
-  <h1>Company Page</h1>
+  <h1>Guest Page</h1>
 </main>
 
 <?php get_footer(); ?>

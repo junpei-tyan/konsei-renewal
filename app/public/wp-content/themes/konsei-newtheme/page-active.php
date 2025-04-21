@@ -1,13 +1,13 @@
 <?php 
   /*
-  Template Name: Company Page
+  Template Name: Active Page
   */
 
   get_header(); 
 ?>
 
 <main>
-  <h1>Company Page</h1>
+  <h1>Active Page</h1>
 </main>
 
 <?php get_footer(); ?>

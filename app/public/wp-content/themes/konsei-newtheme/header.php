@@ -20,12 +20,12 @@
     <div class="header-nav-container">
       <nav>
         <ul class="header-nav">
-          <li><a href="">絞りについて</a></li>
-          <li><a href="#">体験紹介</a></li>
-          <li><a href="#">ワークショップ</a></li>
-          <li><a href="#">活動実績</a></li>
-          <li><a href="#">会社概要</a></li>
-          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="<?php echo home_url() ?>/about">絞りについて</a></li>
+          <li><a href="<?php echo home_url() ?>/experience">体験紹介</a></li>
+          <li><a href="<?php echo home_url() ?>/offer">ご予約</a></li>
+          <li><a href="<?php echo home_url() ?>/active">活動実績</a></li>
+          <li><a href="<?php echo home_url() ?>/company">会社概要</a></li>
+          <li><a href="<?php echo home_url() ?>/info">お問い合わせ</a></li>
         </ul>
       </nav>
     </div>

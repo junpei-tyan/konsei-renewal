@@ -10,6 +10,7 @@
   <div class="offer-firstview">
     <h1>体験の申し込み</h1>
   </div>
+
   <div class="phone-section">
     <p>体験のお申し込みは下記フォームよりお願いいたします。</p>
     <p>ご返信まで少々お時間をいただく場合がございますので、あらかじめご了承ください。</p>
@@ -22,6 +23,7 @@
       <p>※ 9:00～18:00 土日祝除く</p>
     </div>
   </div>
+  
   <div class="calender-section">
     <h4>【お日にち・参加人数】</h4>
     <p>平日（月～金）１～５名様での御予約をお願いします。</p>
@@ -34,6 +36,7 @@
     <p>カレンダーをご覧いただいている時点で、他の方からのご予約や申込状況などによってご希望に添えない場合がございます。</p>
     <p>下記フォームより複数のご希望日をお知らせいただけますよう宜しくお願いいたします。</p>
   </div>
+
   <div class="offer-form-section">
     <h4>お申し込みフォーム</h4>
     <div class="offer-form">
@@ -109,17 +112,19 @@
       </form>
     </div>
   </div>
+  
   <div class="contact-link-section">
     <div>
-      <a href="#">お問い合わせ・よくある質問はこちら</a>
+      <a href="<?php echo home_url() ?>/info">お問い合わせ・よくある質問はこちら</a>
     </div>
   </div>
 
   <div class="page-top-button" id="pageTopBtn">
     <button>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow.svg" alt="arrow-icon">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
     </button>
   </div>
+
 </main>
 
 <?php get_footer(); ?>
