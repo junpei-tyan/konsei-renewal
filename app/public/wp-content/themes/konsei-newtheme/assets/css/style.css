@@ -775,7 +775,7 @@ footer {
   width: 100vw;
   height: 500px;
   color: #fff;
-  background: url(../images/about-first-view.png) no-repeat center center;
+  background: url(../images/about/about-first-view.png) no-repeat center center;
 
   margin-bottom: 60px; 
   
@@ -809,7 +809,7 @@ background-color: var(--accent-light-color);
 
 
 .narumi-section{
-padding: 90px 20px 150px;
+  padding: 90px 20px 0 0;
 }
 
 .narumi-section__title{
@@ -872,7 +872,7 @@ padding: 90px 20px 150px;
 }
 
 .full-width-section{
-  width: 100vw;
+  width: calc(100vw - 40px);
   margin-left: calc(-50vw + 50%);
   background-color: var(--accent-light-color); /* 必要に応じて */
 }
@@ -960,7 +960,7 @@ padding: 90px 20px 150px;
 
 .experience-left {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--base-color);
   display: flex;
   align-items: center;
   justify-content: center;

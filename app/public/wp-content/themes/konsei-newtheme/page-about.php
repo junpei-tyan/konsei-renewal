@@ -6,7 +6,6 @@
   get_header(); 
 ?>
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/page-about.css">
 <main>
   <div class="about-firstview">
     <h1>絞りについて</h1>
@@ -32,7 +31,7 @@
     <div class="narumi-section__history">
       <div class="narumi-section__item">
         <div class="narumi-section__image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/narumi1.png" alt="東海道五十三次">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/narumi1.png" alt="東海道五十三次">
         </div>
         <div class="narumi-section__text">
           <div class="narumi-section__subtitle">江戸時代の賑わいと絞り文化</div>
@@ -56,7 +55,7 @@
           </p>
           </div>
         <div class="narumi-section__image">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/narumi2.png" alt="鳴海絞の発展">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/narumi2.png" alt="鳴海絞の発展">
         </div>
     </div>
   </div>
@@ -69,7 +68,7 @@
     <div class="step">
       <div class="step_box">
         <div class="step-label">STEP1</div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/process1.png" alt="デザイン・型彫り・絵彫り">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/process1.png" alt="デザイン・型彫り・絵彫り">
         <div class="step_title">①デザイン・型彫り・絵彫り</div>
         <p>
           鳴海絞りで使われるデザインを考えます。<br>
@@ -80,7 +79,7 @@
 
       <div class="step_box">
         <div class="step-label">STEP2</div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/process2.png" alt="括り">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/process2.png" alt="括り">
         <div class="step_title">②括り</div>
         <p>
         糸と針を使って縫ったり、専用の絞り台を使って括ります。
@@ -90,7 +89,7 @@
 
       <div class="step_box">
         <div class="step-label">STEP3</div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/process3.png" alt="染色">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/process3.png" alt="染色">
         <div class="step_title">③染色</div>
         <p>
         染色をします。素材によって染料を変えて、
@@ -100,7 +99,7 @@
 
       <div class="step_box">
         <div class="step-label">STEP4</div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/process4.png" alt="糸抜き、仕上げ">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/process4.png" alt="糸抜き、仕上げ">
         <div class="step_title">④糸抜き、仕上げ</div>
         <p>
         絞りの種類によって解き方が異なります。同じ図案でも、一枚一枚表情が違う絞り染め。
@@ -115,6 +114,7 @@
     <div class="experience-left">
       実際にこの絞り染めを体験してみませんか？
     </div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/triangle.svg" alt="triangle-img">
     <a href="#" class="experience-right">
       ご予約はこちらから
       <span class="arrow">→</span>
@@ -130,37 +130,37 @@
     
       <div class="textile_list">
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile1.png" alt="杢目（もくめ）絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile1.png" alt="杢目（もくめ）絞り">
           <p>杢目（もくめ）絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile2.png" alt="三浦絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile2.png" alt="三浦絞り">
           <p>三浦絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile3.png" alt="三浦絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile3.png" alt="三浦絞り">
           <p>三浦絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile4.png" alt="杢目（もくめ）絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile4.png" alt="杢目（もくめ）絞り">
           <p>杢目（もくめ）絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile5.png" alt="蜘蛛絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile5.png" alt="蜘蛛絞り">
           <p>蜘蛛絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile6.png" alt="杢目（もくめ）絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile6.png" alt="杢目（もくめ）絞り">
           <p>杢目（もくめ）絞り</p>
         </div>
 
         <div class="textile_item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/textile7.png" alt="三浦絞りと竜巻絞り">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/textile7.png" alt="三浦絞りと竜巻絞り">
           <p>三浦絞りと竜巻絞り</p>
         </div>
     </div>
