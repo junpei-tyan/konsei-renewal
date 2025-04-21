@@ -112,12 +112,6 @@
       </form>
     </div>
   </div>
-  
-  <div class="contact-link-section">
-    <div>
-      <a href="<?php echo home_url() ?>/info">お問い合わせ・よくある質問はこちら</a>
-    </div>
-  </div>
 
   <div class="page-top-button" id="pageTopBtn">
     <button>

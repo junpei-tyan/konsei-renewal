@@ -80,14 +80,6 @@
     </div>
   </section>
 
-  <a href="<?php echo home_url() ?>/offer" class="offer-link">
-    <p>ご予約はこちら</p>
-    <div>
-      <p>052-624-0029</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/phone-call.svg" alt="phone-icon">
-    </div>
-  </a>
-
   <div class="page-top-button" id="pageTopBtn">
     <button>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
