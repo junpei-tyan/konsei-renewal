@@ -1,0 +1,77 @@
+.page-title {
+    position: relative;
+    background: url(../images/company/company_img.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    /* margin-bottom: 80px; */
+}
+.page-title h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: var(--xl-text-size);
+    border-bottom: solid 1px #fff;
+}
+
+.profile,
+.access {
+    font-family: var(--emphasis-font-style);
+}
+
+
+.profile {
+    width: 100%;
+    max-width: 800px;
+    margin: 150px auto;
+    font-size: 18px;
+}
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+}
+.profile-table th,
+.profile-table td {
+    padding: 20px 20px;
+    text-align: left;
+    border-bottom: solid 1px #000;
+}
+.profile-table th {
+    width: 150px;
+}
+
+
+
+.access {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px auto;
+}
+.access h3{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 50px;
+    font-size: var(--md-text-size);
+}
+.access-adress {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.address-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
