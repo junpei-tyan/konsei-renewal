@@ -20,12 +20,12 @@
     <div class="header-nav-container">
       <nav>
         <ul class="header-nav">
-          <li><a href="<?php echo home_url() ?>/about">絞りについて</a></li>
-          <li><a href="<?php echo home_url() ?>/experience">体験紹介</a></li>
-          <li><a href="<?php echo home_url() ?>/offer">ご予約</a></li>
-          <li><a href="<?php echo home_url() ?>/active">活動実績</a></li>
-          <li><a href="<?php echo home_url() ?>/company">会社概要</a></li>
-          <li><a href="<?php echo home_url() ?>/info">お問い合わせ</a></li>
+          <li><a href="<?php echo home_url() ?>/about" data-i18n="header-nav-item1">絞りについて</a></li>
+          <li><a href="<?php echo home_url() ?>/experience" data-i18n="header-nav-item2">体験紹介</a></li>
+          <li><a href="<?php echo home_url() ?>/offer" data-i18n="header-nav-item3">ご予約</a></li>
+          <li><a href="<?php echo home_url() ?>/active" data-i18n="header-nav-item4">活動実績</a></li>
+          <li><a href="<?php echo home_url() ?>/company" data-i18n="header-nav-item5">会社概要</a></li>
+          <li><a href="<?php echo home_url() ?>/info" data-i18n="header-nav-item6">お問い合わせ</a></li>
         </ul>
       </nav>
     </div>
@@ -38,6 +38,6 @@
       </a>
     </div>
     <div class="header-lang-switcher">
-      <button>JP / EN</button>
+      <button id="langSwitcher">JP / EN</button>
     </div>
   </header>

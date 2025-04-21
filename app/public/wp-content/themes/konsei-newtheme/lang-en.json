@@ -1,0 +1,55 @@
+{
+  "header-nav-item1": "About",
+  "header-nav-item2": "Experience",
+  "header-nav-item3": "Reservations",
+  "header-nav-item4": "Activities",
+  "header-nav-item5": "Company",
+  "header-nav-item6": "Contact Us",
+
+  "offer-link-text": "Click here to make a reservation",
+
+  "first-view-text": "Arimatsu-Narumi Shibori",
+
+  "second-view-top-text1": "We want everyone to feel the warmth of handmade Arimatsu-Narumi Shibori, a traditional Japanese craft",
+  "second-view-top-text2": "We hope everyone can feel close to it and enjoy it",
+  "second-view-top-text3": "With that in mind, we devote ourselves daily to the art of binding and dyeing",
+  "second-view-top-text4": "And we want to offer more chances for everyone to experience Shibori dyeing",
+  "second-view-top-text5": "We want to keep expanding these opportunities",
+
+  "second-view-bottom-title": "About Shibori",
+  "second-view-bottom-text1": "About Shibori",
+  "second-view-bottom-text2": "A beautiful dyeing culture passed down through the ages",
+  "second-view-bottom-text3": "Shibori dyeing is a technique that has been cherished around the world since ancient times",
+  "second-view-bottom-text4": "In Japan, it came along with Buddhism during the Asuka to Nara periods",
+  "second-view-bottom-text5": "It was introduced as part of continental culture,",
+  "second-view-bottom-text6": "and beautiful Shibori fabrics are still preserved as treasures in the Shosoin Imperial Repository.",
+
+  "second-view-bottom-link": "Learn More",
+
+  "top-experoence-title": "Experience Introduction",
+
+  "top-experience-card-text1": "Sekka Shibori",
+  "top-experience-card-text2": "For Groups",
+  "top-experience-card-text3": "Denim Too",
+
+  "top-guest-title": "Customer Page",
+
+  "top-guest-shiboinu-text1": "We’ve received wonderful",
+  "top-guest-shiboinu-text2": "messages and photos from our customers — take a look!",
+  "top-guest-shiboinu-text3": "Please check it out!",
+
+  "top-guest-link": "View More",
+
+  "top-info-title": "News & Updates",
+
+  "top-info-text1": "Notice of revised pricing for Yukihanasibori (Yukata fabric) experience (from April 2025 reservations)",
+  "top-info-text2": "Sekkashibori Tenugui Workshop will be held at KONSEI on Sunday, September 29!!",
+  "top-info-text3": "Notice: Shared seating at Yukata workshops may apply",
+  "top-info-text4": "Also available through the Furusato Nozei (Hometown Tax Donation Program)!",
+
+  "top-access-text1": "21 Shimonaka, Narumi-cho, Midori-ku, Nagoya City",
+  "top-access-text2": "If using a car navigation system, please enter the following address:",
+  "top-access-text3": "22 Shimonaka, Narumi-cho, Midori-ku, Nagoya City",
+  "top-access-text4": "Parking available (see left diagram)",
+  "top-access-text5": "Approx. 3-minute walk from Meitetsu Narumi Station (East Exit)"
+}

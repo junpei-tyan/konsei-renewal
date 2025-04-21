@@ -2,17 +2,17 @@
 
 <main>
   <div class="top-first-view">
-    <h1>有松・鳴海絞り</h1>
+    <h1 data-i18n="first-view-text">有松・鳴海絞り</h1>
   </div>
 
   <div class="second-view">
     <div class="second-view-top">
       <div class="second-view-top-text">
-        <p>日本伝統工芸、有松・鳴海絞の手仕事ならではの温もりを</p>
-        <p>誰もが身近に感じて、そして楽しんでいただきたい</p>
-        <p>そんな気持ちで日々くくりや染色に取り組んでいます</p>
-        <p>そして、みなさんに絞り染めを体験していただける機会を</p>
-        <p>もっともっと増やしていきたい</p>
+        <p data-i18n="second-view-top-text1">日本伝統工芸、有松・鳴海絞の手仕事ならではの温もりを</p>
+        <p data-i18n="second-view-top-text2">誰もが身近に感じて、そして楽しんでいただきたい</p>
+        <p data-i18n="second-view-top-text3">そんな気持ちで日々くくりや染色に取り組んでいます</p>
+        <p data-i18n="second-view-top-text4">そして、みなさんに絞り染めを体験していただける機会を</p>
+        <p data-i18n="second-view-top-text5">もっともっと増やしていきたい</p>
       </div>
       <div class="second-view-top-image">
         <!-- background image -->
@@ -24,22 +24,22 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/second-view-bottom2.png" alt="second-view-bottom-image2">
       </div>
       <section class="second-view-bottom-text">
-        <h5>絞りについて</h5>
+        <h5 data-i18n="second-view-bottom-title">絞りについて</h5>
 
-        <p>絞りについて</p>
-        <p>古くから伝わる、美しい染めの文化</p>
-        <p>絞り染めは、古くから世界各地で親しまれてきた染色技法です。</p>
-        <p>日本には飛鳥〜奈良時代、仏教とともに</p>
-        <p>大陸文化の一つとして伝わり、</p>
-        <p>正倉院にもその美しい布が宝物として残されています。</p>
+        <p data-i18n="second-view-bottom-text1">絞りについて</p>
+        <p data-i18n="second-view-bottom-text2">古くから伝わる、美しい染めの文化</p>
+        <p data-i18n="second-view-bottom-text3">絞り染めは、古くから世界各地で親しまれてきた染色技法です。</p>
+        <p data-i18n="second-view-bottom-text4">日本には飛鳥〜奈良時代、仏教とともに</p>
+        <p data-i18n="second-view-bottom-text5">大陸文化の一つとして伝わり、</p>
+        <p data-i18n="second-view-bottom-text6">正倉院にもその美しい布が宝物として残されています。</p>
 
-        <a href="<?php echo home_url() ?>/about" class="second-view-bottom-link">さらに詳しく</a>
+        <a href="<?php echo home_url() ?>/about" class="second-view-bottom-link" data-i18n="second-view-bottom-link">さらに詳しく</a>
       </section>
     </div>
   </div>
 
   <section class="top-experience-section">
-    <h3>体験のご紹介</h3>
+    <h3 data-i18n="top-experoence-title">体験のご紹介</h3>
     <div class="top-experience-content">
       <div class="top-experience-card">
         <div class="top-experience-card__sekka-shibori">
@@ -47,7 +47,7 @@
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
             <button>
-              <span>雪花絞り</span>
+              <span data-i18n="top-experience-card-text1">雪花絞り</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
             </button>
           </div>
@@ -59,7 +59,7 @@
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
             <button>
-              <span>団体様向け</span>
+              <span data-i18n="top-experience-card-text2">団体様向け</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
             </button>
           </div>
@@ -71,7 +71,7 @@
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
             <button>
-              <span>デニムも</span>
+              <span data-i18n="top-experience-card-text3">デニムも</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
             </button>
           </div>
@@ -81,7 +81,7 @@
   </section>
 
   <section class="top-guest-section">
-    <h3>お客様のページ</h3>
+    <h3 data-i18n="top-guest-title">お客様のページ</h3>
     <div class="top-guest-content">
       <div class="top-guest-images">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/guest-image1.jpg" alt="top-guest-image1" class="top-guest-image1">
@@ -91,38 +91,38 @@
       </div>
       <div class="top-guest-shiboinu">
         <div class="top-guest-shiboinu-comment">
-          <p>お客様から届いた</p>
-          <p>お声やお写真を紹介しているワン！</p>
-          <p>是非見ていって欲しいワン！</p>
+          <p data-i18n="top-guest-shiboinu-text1">お客様から届いた</p>
+          <p data-i18n="top-guest-shiboinu-text2">お声やお写真を紹介しているワン！</p>
+          <p data-i18n="top-guest-shiboinu-text3">是非見ていって欲しいワン！</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shiboinu.png" alt="shiboinu-image" class="top-guest-shiboinu-image">
       </div>
       <a href="<?php echo home_url() ?>/guest" class="top-guest-link">
-        <span>もっと見る</span>
+        <span data-i18n="top-guest-link">もっと見る</span>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
       </a>
     </div>
   </section>
 
   <section class="top-info-section">
-    <h3>お知らせ・最新情報</h3>
+    <h3 data-i18n="top-info-title">お知らせ・最新情報</h3>
     <div class="top-info-content">
       <ul>
         <li class="top-info-item">
           <span>2025/04/14</span>
-          <p>雪花絞り（浴衣反物）体験料金改定のお知らせ（2025年4月～ご予約より）</p>
+          <p data-i18n="top-info-text1">雪花絞り（浴衣反物）体験料金改定のお知らせ（2025年4月～ご予約より）</p>
         </li>
         <li class="top-info-item">
-          <span>2025/04/14</span>
-          <p>雪花絞り（浴衣反物）体験料金改定のお知らせ（2025年4月～ご予約より）</p>
+          <span>2024/09/06</span>
+          <p data-i18n="top-info-text2">9月29日(日)  雪花絞り手ぬぐいワークショップをこんせい  にて行います！！</p>
         </li>
         <li class="top-info-item">
-          <span>2025/04/14</span>
-          <p>雪花絞り（浴衣反物）体験料金改定のお知らせ（2025年4月～ご予約より）</p>
+          <span>2024/08/03</span>
+          <p data-i18n="top-info-text3">浴衣ワークショップ相席のお願い</p>
         </li>
         <li class="top-info-item">
-          <span>2025/04/14</span>
-          <p>雪花絞り（浴衣反物）体験料金改定のお知らせ（2025年4月～ご予約より）</p>
+          <span>2024/04/12</span>
+          <p data-i18n="top-info-text4">ふるさと納税でもご利用いただけます！</p>
         </li>
       </ul>
     </div>
@@ -136,18 +136,18 @@
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parking-area-map.jpg" alt="parking-area-map" class="parking-area-map-image">
       <div class="top-access-text">
         <p>〒458-0801</p>
-        <p>名古屋市緑区鳴海町字下中21番地</p>
+        <p data-i18n="top-access-text1">名古屋市緑区鳴海町字下中21番地</p>
         <p>TEL.052-624-0029</p>
-        <p>*カーナビなどで検索される場合は下記の内容で入力下さい</p>
-        <p>名古屋市緑区鳴海町下中22</p>
-        <p>*駐車場ございます(左図)</p>
-        <p>*名鉄鳴海駅  東出口より徒歩3分程</p>
+        <p data-i18n="top-access-text2">*カーナビなどで検索される場合は下記の内容で入力下さい</p>
+        <p data-i18n="top-access-text3">名古屋市緑区鳴海町下中22</p>
+        <p data-i18n="top-access-text4">*駐車場ございます(左図)</p>
+        <p data-i18n="top-access-text5">*名鉄鳴海駅  東出口より徒歩3分程</p>
       </div>
     </div>
   </div>
 
   <a href="<?php echo home_url() ?>/offer" class="offer-link">
-    <p>ご予約はこちら</p>
+    <p data-i18n="offer-link-text">ご予約はこちら</p>
     <div>
       <p>052-624-0029</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/phone-call.svg" alt="phone-icon">
