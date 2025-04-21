@@ -1,0 +1,270 @@
+.about-firstview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 500px;
+  color: #fff;
+  background: url(../images/about-first-view.png) no-repeat center center;
+
+  margin-bottom: 60px; 
+  
+}
+.about-firstview h1 {
+  position: absolute;
+  font-size: var(--xl-text-size);
+  font-weight: 500;
+}
+.about-firstview h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  background: #fff;
+  border-radius: 1px;
+  height: 2px;
+}
+
+.top-section{
+background-color: var(--accent-light-color);
+}
+
+.top-section_intro {
+  max-width: 1200px; 
+  padding: 50px 40px;
+  margin: 0 auto;
+  line-height: 36px;
+  font-size: var(--md-text-size);
+}
+
+
+.narumi-section{
+padding: 90px 20px 150px;
+}
+
+.narumi-section__title{
+  text-align: center;
+  font-size: var(--lg-text-size);
+  padding-bottom:30px;
+}
+
+.narumi-section__intro{
+  font-size:var(--md-text-size);
+  text-align: center;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
+
+
+.narumi-section__subtitle {
+  font-size: var(--md-text-size);
+  color: var(--accent-color);
+  margin-bottom: 16px;
+  margin-top:15px;
+}
+
+
+.narumi-section__item {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  max-width: 1100px; /* ← これで左右に余白できて見やすく！ */
+  margin: 0 auto 80px; /* ← 中央寄せ */
+}
+
+
+.narumi-section__image {
+  flex: 1.5; 
+  min-width: 350px;
+  max-width: 600px;
+}
+
+.narumi-section__image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+}
+
+.narumi-section__text {
+  flex: 2;
+  min-width: 300px;
+  max-width: 600px;
+  margin-top:12px;
+  line-height: 25px;
+}
+
+.narumi-section__text {
+  line-height: 30px;
+}
+
+.full-width-section{
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: var(--accent-light-color); /* 必要に応じて */
+}
+
+
+.process-section {
+  background-color: var(--accent-light-color)!important;
+  padding: 80px 20px;
+}
+
+.process-section__title {
+  text-align: center;
+  font-size: var(--lg-text-size);
+  padding-bottom:10px;
+}
+
+.process-section__intro{
+  font-size:var(--md-text-size);
+  text-align: center;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom:30px;
+}
+
+.step {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.step_box {
+  background-color: var(--base-color);
+  padding: 30px;
+  max-width: 460px;
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.step_box img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.step-label {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.step_title {
+  color: var(--accent-color);
+  font-size: var(--md-text-size);
+  margin: 20px;
+}
+
+.step_box p {
+  line-height: 1.8;
+  font-size: 14px;
+  margin:5px 20px;
+}
+
+
+.experience-section {
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  background-color: var(--accent-light-color);
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.experience-left {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-right {
+  flex: 1;
+  background-color: var(--accent-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+
+
+.textile-section {
+background-color: var(--accent-light-color);
+padding: 60px 20px;
+
+text-align: center;
+}
+
+.textile-section__title {
+  text-align: center;
+  font-size: var(--lg-text-size);
+  padding-bottom: 10px;
+}
+
+.textile-section__intro{
+  font-size:var(--md-text-size);
+  text-align: center;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom:20px;
+}
+
+  .textile-box {
+    background-color: var(--base-color);
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .textile_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 32px;
+  }
+  
+  
+  .textile_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* 最後のアイテムが一つだけの段で中央に寄せる */
+  .textile_list:has(.textile_item:nth-child(7)) .textile_item:nth-child(7) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+  
+  
+  .textile_item p {
+    margin-top: 12px;
+    font-size: var(--sm-text-size);
+    color: #000000;
+  }
+

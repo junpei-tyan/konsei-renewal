@@ -7,5 +7,5 @@
     wp_enqueue_script("script",get_template_directory_uri()."/assets/js/script.js",array(),false, true);
   }
   add_action('wp_enqueue_scripts','add_files');
-
+  
 ?>
