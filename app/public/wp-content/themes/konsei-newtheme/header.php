@@ -38,7 +38,18 @@
       </a>
     </div>
     <div class="header-lang-switcher">
-      <button id="langSwitcher">JP / EN</button>
+      <button id="langSwitcher">Language</button>
+
+      <div class="header-lang-dropdown" id="langDropdown">
+        <ul>
+          <li>
+            <button id="jpButton">日本語</button>
+          </li>
+          <li>
+            <button id="enButton">English</button>
+          </li>
+        </ul>
+      </div>
     </div>
     <button class="header-menu-icon" id="headerMenuButton">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header-menu.svg" alt="header-menu-icon">
@@ -73,7 +84,7 @@
           </a>
         </div>
         <div class="header-lang-switcher-sp">
-          <button id="langSwitcherSP">JP / EN</button>
+          <button id="langSwitcherSP">Language</button>
         </div>
       </div>
     </div>

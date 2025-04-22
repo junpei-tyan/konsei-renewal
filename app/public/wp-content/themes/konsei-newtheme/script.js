@@ -1,35 +1,51 @@
-let currentLang = "ja";
+let currentLang = 'ja';
 
 function loadLanguage(lang) {
   const basePath = `${window.location.origin}/wp-content/themes/konsei-newtheme/`;
   fetch(`${basePath}lang-${lang}.json`)
     .then(response => response.json())
     .then(data => {
-      document.querySelectorAll("[data-i18n]").forEach(el => {
-        const key = el.getAttribute("data-i18n");
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
         if (data[key]) {
           el.textContent = data[key];
         }
       });
 
       currentLang = lang;
-
-      document.body.classList.remove('lang-ja', 'lang-en');
-      document.body.classList.add(`lang-${lang}`);
-
-      const btn = document.getElementById("langSwitcher");
-      btn.textContent = lang === "ja" ? "JP / EN" : "JP / EN";
     })
     .catch(error => {
-      console.error(`エラー: ${error}`);
+      console.error(`言語ファイルの読み込みに失敗しました: ${error}`);
     });
 }
 
-loadLanguage(currentLang);
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".tab-btn");
+  const contents = document.querySelectorAll(".tab-content");
 
-document.getElementById("langSwitcher").addEventListener("click", () => {
-  const nextLang = currentLang === "ja" ? "en" : "ja";
-  loadLanguage(nextLang);
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      // ボタンの active を切り替え
+      buttons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      // コンテンツの表示切り替え
+      const target = button.getAttribute("data-tab");
+      contents.forEach(content => {
+        content.classList.toggle("active", content.id === target);
+      });
+    });
+  });
+
+  document.getElementById("jpButton").addEventListener("click", () => {
+    loadLanguage("ja");
+  });
+
+  document.getElementById("enButton").addEventListener("click", () => {
+    loadLanguage("en");
+  });
+
+  loadLanguage(currentLang);
 });
 
 document.getElementById("pageTopBtn").addEventListener("click", function() {
@@ -39,7 +55,7 @@ document.getElementById("pageTopBtn").addEventListener("click", function() {
   });
 });
 
-const headerMenu = document.getElementById("headerMenuSP");
+const headerMenu = document.getElementById("headerMenu");
 
 document.getElementById("headerMenuButton").addEventListener("click", () => {
   headerMenu.style.display = "block";
@@ -47,4 +63,25 @@ document.getElementById("headerMenuButton").addEventListener("click", () => {
 
 document.getElementById("headerMenuButtonClose").addEventListener("click", () => {
   headerMenu.style.display = "none";
+})
+
+const langSwitcher = document.getElementById("langSwitcher");
+const langDropdown = document.getElementById("langDropdown");
+
+langSwitcher.addEventListener("click", (e) => {
+  langDropdown.style.display = "block";
+  langDropdown.classList.add("active");
+  langDropdown.classList.remove("hidden");
+
+  e.stopPropagation();
+});
+
+langDropdown.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
+
+document.addEventListener("click", () => {
+  langDropdown.classList.add("active");
+  langDropdown.classList.remove("active");
+  langDropdown.classList.add("hidden");
 })
