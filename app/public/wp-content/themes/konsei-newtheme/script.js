@@ -38,3 +38,13 @@ document.getElementById("pageTopBtn").addEventListener("click", function() {
     behavior: "smooth"
   });
 });
+
+const headerMenu = document.getElementById("headerMenuSP");
+
+document.getElementById("headerMenuButton").addEventListener("click", () => {
+  headerMenu.style.display = "block";
+})
+
+document.getElementById("headerMenuButtonClose").addEventListener("click", () => {
+  headerMenu.style.display = "none";
+})

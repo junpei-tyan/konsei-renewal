@@ -3,6 +3,11 @@
 <main>
   <div class="top-first-view">
     <h1 data-i18n="first-view-text">有松・鳴海絞り</h1>
+
+    <div class="first-view-text-sp">
+      <h2>有松</h2>
+      <h2>鳴海絞り</h2>
+    </div>
   </div>
 
   <div class="second-view">
@@ -101,6 +106,10 @@
         <span data-i18n="top-guest-link">もっと見る</span>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
       </a>
+      <div class="top-guest-description">
+        <p>マスコットキャラクター</p>
+        <h6>シボ犬</h6>
+      </div>
     </div>
   </section>
 

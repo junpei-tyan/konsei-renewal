@@ -40,4 +40,41 @@
     <div class="header-lang-switcher">
       <button id="langSwitcher">JP / EN</button>
     </div>
+    <button class="header-menu-icon" id="headerMenuButton">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header-menu.svg" alt="header-menu-icon">
+    </button>
+
+    <div class="header-menu-sp" id="headerMenuSP">
+      <div class="header-menu-sp-top">
+        <a href="<?php echo home_url() ?>" class="header-logo-sp">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpg" alt="logo-image-sp" class="header-logo-image-sp">
+        </a>
+        <button class="header-menu-icon-close" id="headerMenuButtonClose">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/close-white.svg" alt="close-icon">
+        </button>
+      </div>
+
+      <div class="header-menu-nav-sp">
+        <a href="<?php echo home_url() ?>/about">絞りについて</a>
+        <a href="<?php echo home_url() ?>/experience">体験紹介</a>
+        <a href="<?php echo home_url() ?>/offer">ご予約</a>
+        <a href="<?php echo home_url() ?>/active">活動実績</a>
+        <a href="<?php echo home_url() ?>/company">会社概要</a>
+        <a href="<?php echo home_url() ?>/info">お問い合わせ</a>
+      </div>
+
+      <div class="header-menu-sp-bottom">
+        <div class="sns-icons-sp">
+          <a href="https://www.facebook.com/people/%E6%9C%89%E3%81%93%E3%82%93%E3%81%9B%E3%81%84/100057582454245/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/facebook-icon.svg" alt="facebook-icon">
+          </a>
+          <a href="https://www.instagram.com/konsei_shibori/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/instagram-icon.svg" alt="instagram-icon">
+          </a>
+        </div>
+        <div class="header-lang-switcher-sp">
+          <button id="langSwitcherSP">JP / EN</button>
+        </div>
+      </div>
+    </div>
   </header>
