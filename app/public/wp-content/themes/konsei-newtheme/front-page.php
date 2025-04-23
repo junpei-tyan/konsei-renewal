@@ -44,17 +44,21 @@
   </div>
 
   <section class="top-experience-section">
-    <h3 data-i18n="top-experoence-title">体験のご紹介</h3>
+    <div class="top-experience-title-container">
+      <span></span>
+      <h3 data-i18n="top-experoence-title">体験のご紹介</h3>
+      <span></span>
+    </div>
     <div class="top-experience-content">
       <div class="top-experience-card">
         <div class="top-experience-card__sekka-shibori">
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <button>
+            <a href="<?php echo home_url() ?>/experience">
               <span data-i18n="top-experience-card-text1">雪花絞り</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -63,10 +67,10 @@
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <button>
+            <a href="<?php echo home_url() ?>/experience">
               <span data-i18n="top-experience-card-text2">団体様向け</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -75,10 +79,10 @@
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <button>
+            <a href="<?php echo home_url() ?>/experience">
               <span data-i18n="top-experience-card-text3">デニムも</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -86,7 +90,11 @@
   </section>
 
   <section class="top-guest-section">
-    <h3 data-i18n="top-guest-title">お客様のページ</h3>
+    <div class="top-guest-title-container">
+      <span></span>
+      <h3 data-i18n="top-guest-title">お客様のページ</h3>
+      <span></span>
+    </div>
     <div class="top-guest-content">
       <div class="top-guest-images">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/guest-image1.jpg" alt="top-guest-image1" class="top-guest-image1">
@@ -114,7 +122,11 @@
   </section>
 
   <section class="top-info-section">
-    <h3 data-i18n="top-info-title">お知らせ・最新情報</h3>
+    <div class="top-info-title-container">
+      <span></span>
+      <h3 data-i18n="top-info-title">お知らせ・最新情報</h3>
+      <span></span>
+    </div>
     <div class="top-info-content">
       <ul>
         <li class="top-info-item">

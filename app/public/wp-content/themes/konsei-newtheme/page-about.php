@@ -115,13 +115,13 @@
       実際にこの絞り染めを体験してみませんか？
     </div>
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/triangle.svg" alt="triangle-img">
-    <a href="#" class="experience-right">
+    <a href="<?php echo home_url() ?>/offer" class="experience-right">
       ご予約はこちらから
-      <span class="arrow">→</span>
+      <span class="arrow">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
+      </span>
     </a>
   </div>  
-
-
 
   <div class="textile-section full-width-section">
     <div class="textile-box"> 

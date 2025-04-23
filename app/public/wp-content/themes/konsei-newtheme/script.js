@@ -13,6 +13,9 @@ function loadLanguage(lang) {
       });
 
       currentLang = lang;
+
+      document.body.classList.remove('lang-ja', 'lang-en');
+      document.body.classList.add(`lang-${lang}`);
     })
     .catch(error => {
       console.error(`言語ファイルの読み込みに失敗しました: ${error}`);
