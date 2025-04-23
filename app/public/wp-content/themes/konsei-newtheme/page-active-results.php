@@ -35,7 +35,7 @@
     <div class="event-group">
       <h3>地域学習としての体験授業</h3>
       <div class="event-item single">
-        <img src="image1.jpg" alt="小学校">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/school.png">
         <p>伝統工芸に触れながら、ものづくりの楽しさを体験してもらいたいと考えています。
           <br>また、お互いの作品を見せ合い、認め合うことも大切にしています。さらに、感想や気づきを作文やお手紙などで表現することで、自分の思いを言葉にする力も育みます。</p>
       </div>
@@ -45,16 +45,16 @@
       <h3>海外交流イベント</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="image2.jpg" alt="イタリア トリノ">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Italy.png">
           <p>イタリア トリノ市で友好姉妹都市イベント</p>
         </div>
         <div class="event-item">
-          <img src="image3.jpg" alt="アメリカ ロサンゼルス">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/America.png">
           <p>アメリカロサンゼルス市
           <br>友好姉妹都市イベントにて</p>
         </div>
         <div class="event-item">
-          <img src="image4.jpg" alt="オーストラリア">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Australia.png">
           <p>オーストラリアからの交換留学生さんの絞り染め体験
           <br>ー大府市の小学校さんにてー</p>
         </div>
@@ -65,16 +65,16 @@
       <h3>その他ワークショップ</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="image5.jpg" alt="緑警察署">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/police.png">
           <p>緑警察署 南警察署 中川警察署 
           <br>青少年立ち直り支援の一環として</p>
         </div>
         <div class="event-item">
-          <img src="image6.jpg" alt="世界コスプレサミット">
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.png">
           <p>世界コスプレサミット2023</p>
         </div>
         <div class="event-item">
-          <img src="image7.jpg" alt="名古屋大学">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/univer.png">
           <p>名古屋大学 天野教授物理学会にて 絞り染め体験</p>
         </div>
       </div>
