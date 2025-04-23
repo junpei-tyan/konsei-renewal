@@ -7,7 +7,7 @@
 ?>
 
 <main>
-  <div class="page-title">
+  <div class="page-title company-first-view">
     <h2>会社概要</h2>
   </div>
 
@@ -60,7 +60,7 @@
   </section>
 
   <section class="access">
-    <h3>アクセス</h3>
+    <h3 class="section-title">アクセス</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6530.350638860713!2d136.954186!3d35.077352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037c908803f8d1%3A0x6f003b2a71a3059!2z77yI5pyJ77yJ44GT44KT44Gb44GE!5e0!3m2!1sja!2sjp!4v1745049023959!5m2!1sja!2sjp" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="access-adress">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parking-area-map.jpg">

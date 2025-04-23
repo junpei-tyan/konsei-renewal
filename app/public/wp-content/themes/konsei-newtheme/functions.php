@@ -19,5 +19,30 @@
   }
   add_action("wp_enqueue_scripts", "mytheme_enqueue_scripts");
 
-  
+
+  // FAQ カスタム投稿タイプ登録
+  // function create_faq_post_type() {
+  //   register_post_type('faq',
+  //       array(
+  //           'labels' => array(
+  //               'name' => 'よくある質問',
+  //               'singular_name' => 'FAQ'
+  //           ),
+  //           'public' => true,
+  //           'has_archive' => false,
+  //           'menu_position' => 5,
+  //           'menu_icon' => 'dashicons-editor-help',
+  //           'supports' => array('title', 'editor'),
+  //           'show_in_rest' => true, // ブロックエディター対応
+  //       )
+  //   );
+  // }
+  // add_action('init', 'create_faq_post_type');
+
+  // // FAQ 投稿にカテゴリーを追加
+  // function add_faq_categories() {
+  //   register_taxonomy_for_object_type('category', 'faq');
+  // }
+  // add_action('init', 'add_faq_categories');
+
 ?>
