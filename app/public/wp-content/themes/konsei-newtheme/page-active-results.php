@@ -7,7 +7,7 @@
 ?>
 
 <!-- 【活動実績】ページ -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/page-active-results.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/results/page-active-results.css">
 <main>
   <div class="active-results-firstview">
     <h1>活動実績</h1>
@@ -34,7 +34,7 @@
 
     <div class="experience-block">
       <div class="experience-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/school.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/school.png">
       </div>
       <div class="experience-text">
         <h3>地域学習としての体験授業</h3>
@@ -46,40 +46,40 @@
       </div>
     </div>
 
-    <div class="event-group">
+   <div class="event-group">
       <h3>海外交流イベント</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Italy.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Italy.png">
           <p>イタリア トリノ市で友好姉妹都市イベント</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/America.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/America.png">
           <p>アメリカロサンゼルス市
           <br>友好姉妹都市イベントにて</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Australia.png">
-          <p>オーストラリアからの交換留学生さんの絞り染め体験
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Australia.png">
+          <p>オーストラリアの交換留学生たちの絞り染め体験
           <br>ー大府市の小学校さんにてー</p>
         </div>
       </div>
     </div>
-
+ 
     <div class="event-group">
       <h3>その他ワークショップ</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/police.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/police.png">
           <p>緑警察署 南警察署 中川警察署 
           <br>青少年立ち直り支援の一環として</p>
         </div>
         <div class="event-item">
-         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sakae.png">
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.png">
           <p>世界コスプレサミット2023</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/univer.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/univer.png">
           <p>名古屋大学 天野教授物理学会にて 絞り染め体験</p>
         </div>
       </div>
@@ -106,15 +106,15 @@
 
       <div class="product-grid">
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/goods.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods.png">
           <p>絞りアクセサリー</p>
         </div>
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/goods2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods2.png">
           <p>雪花絞りの手拭い</p>
         </div>
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/goods3.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods3.png">
           <p>鳴海絞マスク</p>
         </div>
       </div>
@@ -135,13 +135,13 @@
         </p>
         <div class="store-item-grid">
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/store1.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.png">
           </div>
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/store2.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store2.png">
           </div>
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/store3.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store3.png">
           </div>
         </div>
       </div>
@@ -155,15 +155,15 @@
         ③新商品開発
       </div>
       <div class="results-section__intro">
-        体験活動することで様々な人に喜んでもらえる！
+      伝統工芸の未来をつくる、商品開発プロジェクト
       </div>
     </div>
 
     <div class="products-container">
       <div class="product-section">
         <div class="product-images">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yoga1.png">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yoga2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga1.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga2.png">
         </div>
         <div class="product-description">
           <h3>エアリアルサロンラピタ 空中ヨガ用ハンモック</h3>
@@ -180,36 +180,58 @@
       <div class="product-grid">
         <div class="product-item">
           <h4>愛知県の木材に絞り染めを！</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/store1.png">
-          <p>愛知県産の木材に絞り染めで、和のぬくもりとモダンデザインが融合。</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.png">
+          <p>愛知県産の木材に絞り染めで、<br>和のぬくもりとモダンデザインが融合</p>
         </div>
         <div class="product-item">
           <h4>形状記憶商品</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new2.png">
-          <p>愛知県産の絞り染めで、和のぬくもりとモダンデザインが融合。</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/new2.png">
+          <p>新しい“カタチ”を記憶する、しぼりの可能性</p>
         </div>
         <div class="product-item">
           <h4>名古屋栄 オアシス21 観光案内所</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sakae.png">
-          <p>愛知県産の木材に絞り染めで、和のぬくもりとモダンデザインが融合。</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.png">
+          <p>伝統をカプセルに詰め込んで、あなたの元へ</p>
         </div>
       </div>
     </div>
   </div>
 
   <div class="events-section">
-    <div class="results_card">
-      <div class="results-section__title"> 
-        ④OEM生産
+  <div class="results_card">
+    <div class="results-section__title">④OEM生産</div>
+    <div class="results-section__intro">アパレル商品（OEM） / 京都の SOU・SOU 商品</div>
+  </div>
+
+  <div class="oem-section">
+    <div class="oem-top">
+      <div class="oem-label">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sousou.png" alt="ラベル画像">
       </div>
-      <div class="results-section__intro">
-        アパレル商品（OEM）/ 京都の SOU・SOU 商品
+      <div class="oem-description">
+        <h3>絞りの伝統を現代の暮らしへ。<br>ファッションとして息づく、日本の技。</h3>
+        <p>
+          京都の人気ブランド「SOU・SOU」とのOEM製品開発。<br>
+          絞り染めの技術を活かし、Tシャツ・パンツ・アウターなど、<br>
+          現代のライフスタイルに調和するアパレル商品を展開しています。<br>
+          職人の手仕事が光る、唯一無二のデザインをお届けします。
+        </p>
       </div>
     </div>
+
+    <div class="oem-models">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou1.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou2.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou3.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou4.png">
+    </div>
   </div>
+
+</div>
+
 
 </main>
 
 
-
 <?php get_footer(); ?>
+

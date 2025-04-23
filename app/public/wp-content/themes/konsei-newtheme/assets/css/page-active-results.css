@@ -5,7 +5,9 @@
   width: 100vw;
   height: 500px;
   color: #fff;
-  background: url(../images/top.png) no-repeat center center;
+  background: url(../images/results/top.png) no-repeat center center;
+background-size: cover; 
+
   
 }
 .active-results-firstviewh1 {
@@ -21,7 +23,7 @@ background-color: var(--base-color);
 
 .active-results_intro {
   max-width: 1200px; 
-  padding: 80px 40px;
+  padding: 60px 40px;
   margin: 0 auto;
   line-height: 36px;
   font-size: var(--md-text-size);
@@ -55,32 +57,42 @@ padding-bottom:30px;
 
 .experience-block {
   display: flex;
-  align-items: flex-start;
+  align-items: center; 
   gap: 40px;
   padding: 60px 40px;
-  flex-wrap: wrap; /* 画面が狭いときに折り返し */
+  flex-wrap: wrap;
 }
+
+
+.experience-image {
+  display: flex;
+  align-items: center;
+}
+
 
 .experience-image img {
   width: 100%;
   max-width: 500px;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left: 40px;
 }
 
 .experience-text {
-  flex: 1;
+  flex: 2;
   min-width: 300px;
 }
 
 .experience-text h3 {
   font-size: var(--md-text-size);
-  color: #003366;
-  border-bottom: 2px solid #003366;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
   padding-bottom: 5px;
   margin-bottom: 20px;
+  display: inline-block; /* ★追加！文字の幅だけ下線になる！ */
 }
+
+
+
 
 .experience-text p {
   font-size: var(--main-text-size);
@@ -116,17 +128,19 @@ padding-bottom:30px;
 .event-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  gap: 10px;
 }
 
 .event-item img {
   width: 100%;
+  max-width: 300px; 
   height: auto;
   max-height: 200px;
   object-fit: cover;
-  text-align: center;
-
+  margin: 0 auto;
+  display: block;
 }
+
 
 .event-item p {
   margin-top: 15px;
@@ -157,33 +171,32 @@ padding-bottom:30px;
   text-align: left;
 }
 
-.results-goods {
-  text-align: center;
+.results-goods,.results-stores {
+  padding: 0 60px; 
   margin-bottom: 80px;
 }
 
 .results-goods__title,.results-stores__title {
   font-size: var(--md-text-size);
-  margin: 0 0 10px 90px; 
-  text-align: left;
-  color:var(--accent-color);
+  color: var(--accent-color);
+  margin-bottom: 6px;
+  margin-left: 10px;
 }
 
-.results-goods__line, .results-stores__line{
+.results-goods__line,.results-stores__line{
   height: 2px;
   background-color: #333333;
-  width: 80%;
-  max-width: 1100px;
-  margin-left:80px;
+  width: 100%;       /* ← 線は全体の幅に広げる */
+  max-width: 100%;   /* ← 無制限に広がらないように */
   margin-bottom: 30px;
-  text-align: center;
 }
+
 
 .product-grid, .store-item-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 0 40px;
+  gap: 20px;
+  padding: 0 20px;
   margin-bottom: 40px;
 }
 
@@ -192,10 +205,13 @@ padding-bottom:30px;
 }
 
 .product-item img, .store-item img {
-  width: 100%;
-  height: auto;
-  max-height: 250px;
-  object-fit: cover;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
 }
 
 .product-item p {
@@ -223,14 +239,17 @@ padding-bottom:30px;
   align-items: flex-start;
 }
 
+
 .product-images {
   flex: 1;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   gap: 20px;
-  flex-wrap: wrap; 
+  flex-wrap: nowrap; 
   justify-content: center;
+  max-width: 600px;
 }
+
 
 .product-images img {
   width: 48%; 
@@ -239,11 +258,12 @@ padding-bottom:30px;
 }
 
 .product-description {
-  flex: 2;
+  flex: 1;
 }
 
 .product-description h3 {
   font-size: var(--md-text-size);
+  margin-top: 30px;
   margin-bottom: 15px;
   color: var(--accent-color);
 }
@@ -253,12 +273,15 @@ padding-bottom:30px;
   line-height: 1.6;
 }
 
-
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 30px;
+  gap: 10px 16px; 
+  padding: 0 20px;
+  margin-bottom: 40px;
 }
+
+
 
 .product-item img {
   width: 100%;
@@ -280,4 +303,64 @@ padding-bottom:30px;
   font-size: var(--main-text-size);
   text-align: center;
   line-height: 1.5;
+}
+
+.oem-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oem-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1000px; 
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.oem-label {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.oem-label img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.oem-description {
+  flex: 1;
+  max-width: 600px;
+}
+
+.oem-description h3 {
+  font-size: var(--md-text-size);
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.oem-description p {
+  font-size: var(--main-text-size);
+  line-height: 1.8;
+}
+
+.oem-models {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.oem-models img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
 }
