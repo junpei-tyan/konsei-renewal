@@ -51,6 +51,16 @@ document.addEventListener("DOMContentLoaded", () => {
   loadLanguage(currentLang);
 });
 
+const pageTopBtn = document.getElementById("pageTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    pageTopBtn.classList.add("show");
+  } else {
+    pageTopBtn.classList.remove("show");
+  }
+});
+
 document.getElementById("pageTopBtn").addEventListener("click", function() {
   window.scrollTo({
     top: 0,

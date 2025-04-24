@@ -76,9 +76,15 @@ main {
   border-radius: 40px;
   background: var(--accent-color);
   box-shadow: #3a3737 0 0 8px;
-  transition: all 0.3s;
   cursor: pointer;
   z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+}
+.page-top-button.show {
+  opacity: 1;
+  visibility: visible;
 }
 @media screen and (max-width: 412px) {
   .page-top-button {
