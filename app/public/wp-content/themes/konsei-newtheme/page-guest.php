@@ -9,7 +9,7 @@
 <main>
     
     <div class="about-firstview">
-        <h1>お客様ページ</h1>
+        <h1>お客様のページ</h1>
     </div>
 
     <div class="customer-section">

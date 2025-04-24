@@ -49,6 +49,35 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   loadLanguage(currentLang);
+
+  const faqSections = document.querySelectorAll('.faq-section');
+
+  faqSections.forEach(section => {
+      const questions = section.querySelectorAll('.faq-q');
+  
+      questions.forEach(question => {
+          question.addEventListener('click', function () {
+              const answer = this.nextElementSibling;
+              const icon = this.querySelector('.toggle_icon');
+  
+              if (answer && answer.classList.contains('faq-a')) {
+                  const isVisible = answer.style.display === "block";
+  
+                  if (isVisible) {
+                      answer.style.maxHeight = null;
+                      answer.style.display = "none";
+                  } else {
+                      answer.style.display = "block";
+                      answer.style.maxHeight = answer.scrollHeight + "px";
+                  }
+              }
+  
+              if (icon) {
+                  icon.classList.toggle('open');
+              }
+          });
+      });
+  });  
 });
 
 const pageTopBtn = document.getElementById("pageTopBtn");
@@ -97,4 +126,4 @@ document.addEventListener("click", () => {
   langDropdown.classList.add("active");
   langDropdown.classList.remove("active");
   langDropdown.classList.add("hidden");
-})
+});
