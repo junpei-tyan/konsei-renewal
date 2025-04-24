@@ -1,13 +1,11 @@
 <?php
-  /*
-  Template Name: Experience Page
+    /*
+    Template Name: Experience Page
   */
 
-  get_header(); 
+    get_header(); 
 ?>
 
-<!-- 【お客様】ページ -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/page-guest.css">
 <main>
     
     <div class="about-firstview">
@@ -21,7 +19,7 @@
 
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>色や柄を何にしようか みんなとワイワイ楽しく話しながらできたのと、<br>一人一人全く一緒のものはなくて唯一無二の反物が作れた　ゆかた作って着るのが楽しみ！</p>
@@ -30,7 +28,7 @@
         
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>色や柄を何にしようか みんなとワイワイ楽しく話しながらできたのと、<br>一人一人全く一緒のものはなくて唯一無二の反物が作れた　ゆかた作って着るのが楽しみ！</p>
@@ -39,7 +37,7 @@
 
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>色んな技法、工夫があるのだなと思いました。<br>発色の出具合は本当にきれいでした。ありがとうございました。</p>
@@ -48,7 +46,7 @@
 
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>大変だったけど、やりがいがあって楽しかったです。<br>自分で作った生地で浴衣ができるのがうれしいです。</p>
@@ -57,7 +55,7 @@
 
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>想像以上の楽しさ、また絞り染めの奥深さを知ることができました。<br>
@@ -68,7 +66,7 @@
 
         <div class="voice-item">
             <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/icon.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/icon.png">
             </div>
             <div class="voice-text">
             <p>一反丸々染めさせてくれるというのにまず驚きました。<br>
@@ -88,33 +86,33 @@
         </div>
 
         <div class="photo-box">
-            <div class="image-grid">
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo1.png">
+            <div class="images-grid">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo1.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo2.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo2.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo3.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo3.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo4.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo4.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo5.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo5.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo6.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo6.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo7.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo7.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo8.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo8.png">
                 </div>
-                <div class="image-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/photo9.png">
+                <div class="images-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo9.png">
                 </div>
             </div>
 
@@ -127,7 +125,7 @@
                 </div>
                 
                 <div class="dog">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guest/dog.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/dog.png">
                 </div>
             </div>
         </div>
@@ -154,13 +152,7 @@
 
             </div>
             <div class="movie_item">
-                <iframe src="https://www.youtube.com/embed/rSW03hFJu2k?si=fTquWDX56WbHFhSc" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                </iframe>
+            <iframe width="1024" height="576" src="https://www.youtube.com/embed/lBBb2gymYMI" title="はじめての雪花絞り浴衣　体験！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p>ワークショップにご参加いただきましたお客様より動画をご提供いただきました。<br>
                 雪花絞りで反物を染色する過程から、ご自身で着られて、有松のまちで撮影されたお姿がとても素敵です。<br>
                 ご参加いただいた皆様の笑顔やキラキラしている様子がとっても美しくてかわいくて、私たちの心も躍りました。<br>
@@ -169,6 +161,12 @@
         </div>
     </div>
     <div class="border"></div>
+
+    <div class="page-top-button" id="pageTopBtn">
+        <button>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
+        </button>
+    </div>
 
 </main>
 
