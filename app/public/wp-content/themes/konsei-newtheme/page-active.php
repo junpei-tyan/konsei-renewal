@@ -7,7 +7,6 @@
 ?>
 
 <!-- 【活動実績】ページ -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/results/page-active-results.css">
 <main>
   <div class="active-results-firstview">
     <h1>活動実績</h1>
