@@ -173,7 +173,12 @@
       </form>
     </div>
   </div>
-
+  
+  <div class="page-top-button" id="pageTopBtn">
+    <button>
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
+    </button>
+  </div>
 </main>
 
 <script>
