@@ -5,7 +5,7 @@
   width: 100vw;
   height: 500px;
   color: #fff;
-  background: url(../images/results/top.png) no-repeat center center;
+  background: url(../images/top.png) no-repeat center center;
 background-size: cover; 
 
   
@@ -41,6 +41,7 @@ padding-bottom:30px;
   text-align: center;
   margin-bottom:80px;
 }
+
 
 .results-section__title{
   font-size:var(--lg-text-size);
@@ -91,9 +92,7 @@ padding-bottom:30px;
   display: inline-block; /* ★追加！文字の幅だけ下線になる！ */
 }
 
-
-
-
+s
 .experience-text p {
   font-size: var(--main-text-size);
   line-height: 1.8;
@@ -321,6 +320,7 @@ padding-bottom:30px;
   max-width: 1000px; 
   width: 100%;
   margin-bottom: 40px;
+  margin-left:90px;
 }
 
 .oem-label {
@@ -360,7 +360,7 @@ padding-bottom:30px;
 }
 
 .oem-models img {
-  width: 150px;
+  width: 200px;
   height: auto;
   object-fit: cover;
 }
