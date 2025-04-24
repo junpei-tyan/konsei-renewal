@@ -49,43 +49,50 @@
       <h3 data-i18n="top-experoence-title">体験のご紹介</h3>
       <span></span>
     </div>
+
     <div class="top-experience-content">
-      <div class="top-experience-card">
+      <a href="<?php echo home_url() ?>/experience" class="top-experience-card">
         <div class="top-experience-card__sekka-shibori">
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <a href="<?php echo home_url() ?>/experience">
+
+            <div class="top-experience-card-text">
               <span data-i18n="top-experience-card-text1">雪花絞り</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="top-experience-card">
+      </a>
+
+      <a href="<?php echo home_url() ?>/experience" class="top-experience-card">
         <div class="top-experience-card__group">
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <a href="<?php echo home_url() ?>/experience">
+
+            <div class="top-experience-card-text">
               <span data-i18n="top-experience-card-text2">団体様向け</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="top-experience-card">
+      </a>
+
+      <a href="<?php echo home_url() ?>/experience" class="top-experience-card">
         <div class="top-experience-card__denim">
           <div class="top-experience-card-title">
             <div class="top-experience-card-left"></div>
             <div class="top-experience-card-stalk"></div>
-            <a href="<?php echo home_url() ?>/experience">
+
+            <div class="top-experience-card-text">
               <span data-i18n="top-experience-card-text3">デニムも</span>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-navy-blue.svg" alt="arrow-icon">
-            </a>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
+
     </div>
   </section>
 

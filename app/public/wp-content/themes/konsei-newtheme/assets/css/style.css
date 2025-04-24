@@ -893,6 +893,10 @@ body.lang-en .second-view-top-text {
   border-left: solid 10px #fff;
   border-radius: 12px;
   box-shadow: #484646 0 0 4px;
+  transition: all 0.3s ease;
+}
+.top-experience-card:hover {
+  transform: scale(1.03);
 }
 @media screen and (max-width: 412px) {
   .top-experience-card {
@@ -970,7 +974,7 @@ body.lang-en .second-view-top-text {
     height: 30px;
   }
 }
-.top-experience-card-title a {
+.top-experience-card-title:nth-last-child(1) {
   display: flex;
   align-items: center;
   color: var(--accent-color);
@@ -1006,6 +1010,10 @@ body.lang-en .second-view-top-text {
     width: 50px;
     height: 50px;
   }
+}
+.top-experience-card-text {
+  display: flex;
+  align-items: center;
 }
 
 .top-guest-section {
@@ -1198,6 +1206,9 @@ body.lang-en .second-view-top-text {
   font-size: var(--md-text-size);
   font-family: var(--normal-font-style);
   font-weight: bold;
+}
+.top-guest-link:hover {
+  
 }
 @media screen and (max-width: 412px) {
   .top-guest-link {
