@@ -114,9 +114,65 @@
       </div>
   </section>
 
-  <section class="inquiry-section">
+  <!-- <section class="inquiry-section">
       <h3 class="info-section-title title-inquiry">お問い合わせ</h3>
-  </section>
+  </section> -->
+
+  <!-- 一旦コピペで見た目再現 -->
+  <div class="offer-form-section">
+    <h4>お問い合わせフォーム</h4>
+    <div class="offer-form">
+      <form onsubmit="return false;">
+      <div class="offer-form__name-fields">
+          <div class="offer-form-label">
+          <label for="first-name">お名前</label>
+          <span>必須</span>
+          </div>
+          <div>
+          <input type="text" id="first-name" placeholder="姓" autocomplete="off">
+          <input type="text" id="last-name" placeholder="名" autocomplete="off">
+          </div>
+      </div>
+      <div class="offer-form__mailaddress-fields">
+          <div class="offer-form-label">
+          <label for="mailaddres">メールアドレス</label>
+          <span>必須</span>
+          </div>
+          <input type="text" id="mailaddres" placeholder="example@mail.com" autocomplete="off">
+      </div>
+      <div class="offer-form__phone-fields">
+          <div class="offer-form-label">
+              <label for="phone-number">電話番号</label>
+              <span style="background-color: var(--gray-color);">任意</span>
+          </div>
+          <input type="text" id="phone-number" placeholder="090-1234-5678" autocomplete="off">
+      </div>
+      <div class="offer-form__experience-fields">
+          <div class="offer-form-label">
+          <label for="experience">お問い合わせ内容</label>
+          <span>必須</span>
+          </div>
+          <select name="experience" id="experience">
+          <option value="selected" disabled selected>選択してください</option>
+          <option value="1">オプション1</option>
+          <option value="2">オプション2</option>
+          <option value="3">オプション3</option>
+          </select>
+      </div>
+      <div class="offer-form__remarks-fields">
+          <div class="offer-form-label">
+          <label for="remarks">メッセージ本文</label>
+          <span style="background-color: var(--emphasis-color);">必須</span>
+          </div>
+          <textarea name="remarks" id="remarks" style="height: 400px;"></textarea>
+      </div>
+      <p>※ご提供いただいた個人情報は、ご本人様の同意がある場合、または正当な理由がある場合を除き、第三者に開示または提供いたしません。</p>
+      <div>
+          <button class="submit-button">送信</button>
+      </div>
+      </form>
+    </div>
+  </div>
 
 </main>
 
