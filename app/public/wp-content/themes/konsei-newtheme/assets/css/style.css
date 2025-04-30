@@ -843,6 +843,11 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
+@media screen and (max-width: 412px) {
+  .top-experience-title-container {
+    width: 300px;
+  }
+}
 .top-experience-title-container h3 {
   text-align: center;
   margin: 0 auto;
@@ -858,6 +863,11 @@ body.lang-en .second-view-top-text {
   height: 7px;
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
+}
+@media screen and (max-width: 412px) {
+  .top-experience-title-container span {
+    display: none;
+  }
 }
 .top-experience-title-container span:nth-of-type(1) {
   margin: 0 0 0 63px;
@@ -1030,6 +1040,11 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
+@media screen and (max-width: 412px) {
+  .top-guest-title-container {
+    width: 300px;
+  }
+}
 .top-guest-section h3 {
   text-align: center;
   margin: 0 auto;
@@ -1045,6 +1060,11 @@ body.lang-en .second-view-top-text {
   height: 7px;
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
+}
+@media screen and (max-width: 412px) {
+  .top-guest-title-container span {
+    display: none;
+  }
 }
 .top-guest-title-container span:nth-of-type(1) {
   margin: 0 0 0 63px;
@@ -1264,6 +1284,11 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
+@media screen and (max-width: 412px) {
+  .top-info-title-container {
+    width: 300px;
+  }
+}
 .top-info-section h3 {
   text-align: center;
   margin: 0 auto;
@@ -1279,6 +1304,11 @@ body.lang-en .second-view-top-text {
   height: 7px;
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
+}
+@media screen and (max-width: 412px) {
+  .top-info-title-container span {
+    display: none;
+  }
 }
 .top-info-title-container span:nth-of-type(1) {
   margin: 0 0 0 27px;
@@ -2694,7 +2724,6 @@ s
 }
 
 .experience-section {
-  padding: 20px 60px;
   background-color: var(--base-color); 
 }
 
@@ -2816,7 +2845,6 @@ s
   position: relative;
   width: 100%;
   color: var(--accent-color);
-  /* padding: 20px 40px; */
   display: flex;
   justify-content: center;
   align-items: center;

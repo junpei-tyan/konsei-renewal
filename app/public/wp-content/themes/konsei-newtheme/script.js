@@ -97,7 +97,7 @@ document.getElementById("pageTopBtn").addEventListener("click", function() {
   });
 });
 
-const headerMenu = document.getElementById("headerMenu");
+const headerMenu = document.getElementById("headerMenuSP");
 
 document.getElementById("headerMenuButton").addEventListener("click", () => {
   headerMenu.style.display = "block";
