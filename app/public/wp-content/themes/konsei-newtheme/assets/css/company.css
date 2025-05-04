@@ -1,0 +1,91 @@
+.page-title {
+  position: relative;
+  background: url(../images/company/company-first-view.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.page-title h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+  font-size: var(--xl-text-size);
+  border-bottom: solid 1px #fff;
+}
+
+.profile,
+.access {
+  font-family: var(--emphasis-font-style);
+}
+
+
+.profile {
+  width: 100%;
+  max-width: 800px;
+  margin: 150px auto;
+  font-size: 18px;
+}
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.5;
+}
+.profile-table th,
+.profile-table td {
+  padding: 20px 20px;
+  text-align: left;
+  border-bottom: solid 1px #000;
+}
+.profile-table th {
+  width: 150px;
+}
+
+.access {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin: 100px auto;
+}
+.access-title-container {
+  display: flex;
+  width: 750px;
+  align-items: center;
+  margin: 0 auto;
+}
+.access h3{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: var(--accent-color);
+  font-size: var(--md-text-size);
+  font-family: var(--normal-font-style);
+  font-weight: bold;
+}
+.access-title-container span {
+  display: inline-block;
+  width: 200px;
+  height: 7px;
+  border-top: solid 1px var(--accent-color);
+  border-bottom: solid 1px var(--accent-color);
+}
+.access-title-container span:nth-of-type(1) {
+  margin: 0 0 0 63px;
+}
+.access-title-container span:nth-of-type(2) {
+  margin: 0 63px 0 0;
+}
+.access-adress {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.address-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

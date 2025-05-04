@@ -6,6 +6,8 @@
     get_header(); 
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/guest.css">
+
 <main>
     
     <div class="about-firstview">

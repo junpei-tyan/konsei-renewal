@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/about.css">
+
 <main>
   <div class="about-firstview">
     <h1>絞りについて</h1>

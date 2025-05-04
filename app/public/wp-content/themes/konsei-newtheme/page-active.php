@@ -6,7 +6,8 @@
   get_header(); 
 ?>
 
-<!-- 【活動実績】ページ -->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/active.css">
+
 <main>
   <div class="active-results-firstview">
     <h1>活動実績</h1>

@@ -1,0 +1,193 @@
+.offer-firstview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 500px;
+  color: #fff;
+  background: url(../images/experience/experience-firstview.png) no-repeat center center;
+}
+.offer-firstview h1 {
+  position: absolute;
+  font-size: var(--xl-text-size);
+  font-weight: 500;
+}
+.offer-firstview h1::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  background: #fff;
+  border-radius: 1px;
+  height: 2px;
+}
+.phone-section {
+  padding: 66px 0 38px 0;
+  background: var(--accent-light-color);
+  text-align: center;
+}
+.phone-section p {
+  line-height: 25px;
+  font-family: var(--normal-font-style);
+}
+.phone-section p:nth-of-type(3) {
+  margin: 20px 0 0 0;
+}
+.phone-button {
+  display: flex;
+  width: 335px;
+  margin: 40px auto 15px auto;
+  padding: 14px 0;
+  border-radius: 31px;
+  background: var(--accent-color);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.phone-button p {
+  color: #fff;
+  font-size: var(--md-text-size);
+  font-family: var(--normal-font-style);
+}
+.calender-section {
+  width: 1000px;
+  margin: 90px auto 0 auto;
+  font-family: var(--normal-font-style);
+}
+.calender-section h4 {
+  font-size: var(--md-text-size);
+  margin: 0 0 10px 0;
+}
+.calender-section p {
+  line-height: 22.5px;
+}
+.calender-section p:nth-of-type(1), .calender-section p:nth-of-type(3) {
+  margin: 0 0 15px 0;
+}
+.calender-section span {
+  color: var(--emphasis-color);
+}
+.google-calendar {
+  width: 920px;
+  margin: 20px auto 40px auto;
+}
+.google-calendar iframe {
+  width: 920px;
+  height: 400px;
+}
+.offer-form-section {
+  width: 942px;
+  margin: 83px auto 0 auto;
+  font-family: var(--normal-font-style);
+}
+.offer-form-section h4 {
+  font-size: var(--md-text-size);
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.offer-form {
+  padding: 45px 0;
+  border-top: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+.offer-form form {
+  width: 600px;
+  margin: 0 auto;
+}
+.offer-form form>div {
+  display: flex;
+  margin: 35px 0 0 0;
+  flex-direction: column;
+}
+.offer-form label {
+  display: inline-block;
+  position: relative;
+  margin: 0 13px 0 0;
+  font-size: var(--label-text-size);
+}
+.offer-form input {
+  border: solid 1px #000;
+  border-radius: 4px;
+  height: 40px;
+}
+.offer-form select {
+  border: solid 1px #000;
+  border-radius: 4px;
+  height: 40px;
+}
+.offer-form-label {
+  display: flex;
+  margin: 0 0 6px 0;
+  align-items: center;
+}
+.offer-form span {
+  content: "必須";
+  display: flex;
+  width: 40px;
+  height: 20px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: var(--emphasis-font-style);
+  background: var(--emphasis-color);
+  border-radius: 2px;
+}
+.offer-form input {
+  width: 600px;
+}
+.offer-form__name-fields input {
+  width: 295px;
+  box-sizing: border-box;
+}
+.offer-form__name-fields div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.offer-form__desired-fields input {
+  width: 167px;
+}
+.offer-form__people-fields select {
+  width: 167px;
+}
+.offer-form__remarks-fields span {
+  background: var(--gray-color);
+}
+.offer-form__remarks-fields textarea {
+  height: 200px;
+  resize: none;
+}
+.offer-form p {
+  margin: 35px 0 0 0;
+}
+.offer-form button {
+  font-size: var(--label-text-size);
+  color: #fff;
+  width: 170px;
+  height: 55px;
+  margin: 0 auto;
+  background: var(--accent-color);
+  border-radius: 30px;
+}
+.contact-link-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--accent-light-color);
+  height: 322px;
+  margin: 113px 0 0 0;
+  text-align: center;
+}
+.contact-link-section a {
+  display: flex;
+  width: 470px;
+  height: 74px;
+  margin: 0 auto;
+  border-radius: 37px;
+  justify-content: center;
+  align-items: center;
+  background: var(--accent-color);
+  font-family: var(--normal-font-style);
+  font-size: var(--label-text-size);
+  color: #fff;
+}

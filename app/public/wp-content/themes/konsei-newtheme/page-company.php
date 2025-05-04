@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/company.css">
+
 <main>
   <div class="page-title">
     <h2>会社概要</h2>
