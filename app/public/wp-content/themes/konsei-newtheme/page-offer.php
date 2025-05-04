@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/offer.css">
+
 <main>
   <div class="offer-firstview">
     <h1>体験の申し込み</h1>

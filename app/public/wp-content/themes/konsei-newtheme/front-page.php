@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/top.css">
+
 <main>
   <div class="top-first-view">
     <h1 data-i18n="first-view-text">有松・鳴海絞り</h1>

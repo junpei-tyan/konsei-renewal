@@ -6,6 +6,8 @@
   get_header(); 
 ?>
 
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/experience.css">
+
 <main>
   <h1 id="midasi">体験紹介</h1>
 

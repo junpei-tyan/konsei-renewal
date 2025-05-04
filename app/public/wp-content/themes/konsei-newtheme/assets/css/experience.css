@@ -1,0 +1,440 @@
+#midasi{
+  background-color: #0b2c53; 
+  color: #f5f5f5;
+  border-radius: 100vh;
+  width: 500px;       
+  height: 60px;      
+  margin: 65px auto 0 auto;     
+  display: flex;
+  align-items: center;  
+  justify-content: center;  
+}
+
+.saku{
+  display: block;
+  background-color: #0b2c53; 
+  color: #f5f5f5;
+  border-radius: 100vh;
+  width: 300px;       
+  height: 60px;      
+  margin: 91px auto;   
+  cursor: pointer;  
+}
+/* 切り替えボタン */
+.tab-buttons {
+  height: 60px;      
+  margin: 50px 0 65px 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.tab-btn {
+  flex: 1;
+  font-size: 1.1em;
+  border: none;
+  cursor: pointer;
+  background-color: #7da1c4;
+  color: white;
+  transition: 0.3s;
+  border-radius: 100vh;
+  margin: 0px 10px;
+}
+.tab-btn.active {
+  background-color: #0b2c53;
+  border-radius: 100vh;
+}
+.tab-contents {
+  text-align: center;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+/* 雪花絞り */
+/* 上の写真 */
+.selected-h2 {
+  text-align: center;
+  margin: 75px 0;
+  font-family: var(--normal-font-style);
+}
+.kasaneru {
+  height: 500px;
+}
+.kasaneru h2{
+  color: #f5f5f5;
+  bottom: 10%;
+  right: 5%;
+  font-size: 36px;
+}
+.seka  {
+  width: 100vw;          
+  height: 500px;         
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  margin: 30px 0;
+}
+.yuka{
+  height: 502px;
+  width: 434.44px;
+  margin: 28px auto;
+  position: relative;
+  z-index: 1;
+}
+/* 体験内容 */
+.naiyou{
+  font-family: var(--normal-font-style);
+}
+.syo{
+  display: flex;
+  width: 971px;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: left;
+}
+.syo ol{
+  padding: 0;
+}
+.syo img{
+  width: 300px;
+  height: auto;
+}
+.syo p{
+  line-height: 30px;
+  color: var(--accent-color);
+}
+.syo li{
+  list-style:none
+}
+.gar{
+  display: flex;
+  justify-content: center;
+  padding-left:0
+}
+.gar li{
+  list-style:none
+}
+.gar img{
+  width: 210px;
+  height: auto;
+  margin: 0 10px;
+}
+#denim .gar img{
+  width: 300px;
+  margin: 10px 50px;
+}
+.gar p{
+  font-weight: bold;
+  font-family: var(--normal-font-style);
+  text-align: center;
+}
+.inu{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  object-fit: cover;
+}
+.inu img{
+  width: 450px;
+  margin: 0 20px;
+}
+.nin {
+  text-align: center;
+  margin: 38px 0;
+}
+.nin ul{
+  list-style:none
+}
+.nin li {
+  font-family: var(--normal-font-style);
+}
+.background {
+  background-color: #dbe9f3;
+  min-height: 100%;
+  padding: 50px 0;           
+  width: 100vw;
+  left: 0;
+}
+
+.content-box {
+  background-color: white;  
+  width: 80%;               
+  max-width: 700px;         
+  margin: 0 auto;           
+  padding: 40px 110px; 
+  border-radius: 8px;       
+}
+.content-box h2,
+.content-box p {
+  font-family: var(--normal-font-style);
+}
+
+.price-table{
+  font-family: var(--normal-font-style);
+  margin: 50px auto 25px auto;   
+  border-collapse:  collapse;   
+  table-layout: fixed;
+  width: 100%;  
+}
+.price-table th,
+.price-table td {
+  height: 50px;
+  border: solid 1px #000;
+  text-align: center;
+}
+.ki{
+  background-color: #0b2c53;
+  color: white;
+  border-color: #333;
+}
+.op{
+  font-weight: normal;
+  padding: 8px 40px;
+  background-color: #799FBE;
+  text-align: center;
+  height: auto;
+}
+.ryo{
+  background-color: #CCDDEB;
+}
+.money p{
+  font-family: var(--normal-font-style);
+  text-align: center;
+  line-height: 30px;
+}
+.option{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0 0; 
+}
+.option img{
+  height: 210px;
+  width: 210px;
+  object-fit: cover;
+  margin: 0 10px 15px 30px;
+}
+.option li{
+  list-style:none;
+}
+.option p{
+  text-align: center;
+  margin-top: 0;
+}
+.but{
+  display: flex;
+  gap: 50px;
+  width: 700px;
+}
+.but a{
+  background-color: #0b2c53; 
+  color: #f5f5f5;
+  border-radius: 100vh;
+  height: 60px;      
+  margin: 10px 0;   
+  cursor: pointer; 
+  flex: 1; 
+  text-decoration: none;
+  display: flex;             
+  align-items: center;         
+  justify-content: center;
+}
+.but a:first-child {
+  flex: 3;
+}
+.but a:last-child {
+  flex: 7;
+}
+.hurusato{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.huru {
+  margin: 100px 0 50px 0;
+  font-family: var(--normal-font-style);
+}
+.huru p {
+  text-align: center;
+}
+#yukata .to{
+  text-align: left;
+  width: 800px;
+  padding: 50px 0 0 0;           
+  width: 100vw;
+  left: 0;
+}
+.to p{
+  margin-bottom: 0;
+}
+.to ul{
+  margin-top: 0;
+}
+.huru h2{
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+.toujitu-box {
+  width: 80%;               
+  max-width: 500px;         
+  margin: 0 auto;           
+  padding: 70px; 
+  border-radius: 8px;       
+}
+.toujitu-box h2{
+  text-align: center;
+}
+.toujitu-box p {
+  font-family: var(--normal-font-style);
+  line-height: 30px;
+}
+
+.down{
+  background-color: #0b2c53; 
+  color: #f5f5f5;
+  border-radius: 100vh;
+  height: 60px;      
+  margin: 10px 0;   
+  cursor: pointer; 
+  width: 400px;
+}
+.design-box{
+  display: flex;
+  width: 80%;               
+  max-width: 900px;         
+  margin: 0 auto;           
+  padding: 70px;  
+  justify-content: center;
+}
+.design-box li{
+  list-style:none;
+  text-align: left;
+  padding-left: 50px;
+}
+.design-box li:nth-of-type(2) {
+  margin: 60px 0 0 0;
+}
+.design-box img{
+  width: 350px;
+}
+.background2{
+  background-color: #dbe9f3;
+  padding: 50px 0;           
+  width: 100vw;
+  left: 0;
+  height: auto;
+}
+
+/* 団体 */
+.about-dantai{
+  margin: 175px 0 75px 0;
+  font-family: var(--normal-font-style);
+}
+.dantai{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.dantai div:first-child img{
+  width: 400px;
+}
+.dantai div:last-child img{
+  height: 300px;
+}
+.dantai p{
+  text-align: left;
+}
+.color {
+  display: flex;
+  flex: auto;
+  gap: 30px;
+  list-style:none;
+  justify-content: center;
+  background: var(--accent-light-color);
+  padding: 90px 0;
+}
+.color img{
+  width: 125px;
+  height: 125px;
+  border-radius: 70px;
+}
+.color p {
+  color: var(--accent-color);
+  margin: 10px 0 0 0;
+  font-size: var(--label-text-size);
+  text-align: center;
+}
+#denim .toujitu-box{
+  padding-top: 0;  
+}
+
+.google-calender-text {
+  font-family: var(--normal-font-style);
+  text-align: center;
+  line-height: 25px;
+  margin: 35px 0 65px 0;
+}
+.video-option-text {
+  margin: 0 0 80px 0;
+}
+.video-option-text p {
+  text-align: center;
+  font-family: var(--normal-font-style);
+  line-height: 30px;
+}
+.about-group-top-text {
+  margin: 0 0 0 50px;
+}
+.about-group-top-text p, 
+.about-group-bottom-text p{
+  font-family: var(--normal-font-style);
+  margin: 0 0 20px 0;
+}
+.about-group-top {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.about-group-bottom {
+  display: flex;
+  width: 1000px;
+  margin: 40px auto 0 auto;
+  justify-content: space-between;
+}
+.about-group-bottom-text {
+  width: 600px;
+}
+.sekka-shibori-firstview {
+  position: relative;
+  display: flex;
+  margin: 65px 0 0 0;
+  background: url(../images/experience/sekka-shibori-firstview-side.jpg) no-repeat center center;
+}
+.sekka-shibori-firstview img {
+  margin: 0 auto;
+  width: 434.44px;
+  height: 541px;
+}
+.sekka-shibori-firstview h2 {
+  position: absolute;
+  bottom: 0;
+  height: fit-content;
+  margin: 0 0 25px 985px;
+  color: #fff;
+  font-weight: bold;
+  font-family: var(--xl-text-size);
+}
+.denim-content-top-text {
+  width: 600px;
+}
+.denim-content-top-text p {
+  line-height: 30px;
+}
+.machining-title {
+  margin: 50px 0 15px 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: var(--normal-font-style);
+}
