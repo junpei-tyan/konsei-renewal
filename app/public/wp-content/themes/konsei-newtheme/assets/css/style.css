@@ -53,7 +53,7 @@ button {
 
 main {
   position: relative;
-  top: 80px;
+  top: 70px;
 }
 
 .sns-icons {
@@ -86,7 +86,7 @@ main {
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .page-top-button {
     width: 50px;
     height: 50px;
@@ -151,10 +151,10 @@ header {
   box-shadow: #3a3737 0 0 8px;
   z-index: 100;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   header {
     width: 362px;
-    height: 70px;
+    height: 50px;
     padding: 10px 25px;
   }
 }
@@ -168,7 +168,7 @@ header {
   border-radius: 16px;
   align-self: center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .header-logo {
     width: 168.42px;
     height: 50px;
@@ -181,7 +181,7 @@ header {
   margin: 0 auto;
   align-self: center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .header-logo-image {
     width: 138.42px;
     height: 34.5px;
@@ -191,7 +191,7 @@ header {
   display: flex;
   align-self: center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .header-nav-container {
     display: none;
   }
@@ -218,7 +218,7 @@ header {
 .header-nav a:hover {
   border-bottom-color: #fff;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   header .sns-icons {
     display: none;
   }
@@ -227,7 +227,7 @@ header {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .header-lang-switcher {
     display: none;
   }
@@ -241,7 +241,7 @@ header {
 .header-menu-icon {
   display: none;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .header-menu-icon {
     display: block;
     width: 34px;

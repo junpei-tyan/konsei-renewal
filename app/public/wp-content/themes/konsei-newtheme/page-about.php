@@ -64,8 +64,10 @@
 
 
   <div class="process-section full-width-section">
-    <h2 class="process-section__title">絞り染めの工程</h2>
-    <div class="process-section__intro">伝統的な絞り染めは、以下の工程を通して美しい模様を生み出します。</div>
+    <hgroup>
+      <h2 class="process-section__title">絞り染めの工程</h2>
+      <p class="process-section__intro">伝統的な絞り染めは、<span></span>以下の工程を通して美しい模様を生み出します。</p>
+    </hgroup>
     
     <div class="step">
       <div class="step_box">
@@ -127,8 +129,10 @@
 
   <div class="textile-section full-width-section">
     <div class="textile-box"> 
-      <h2 class="textile-section__title">テキスタイルの紹介</h2>
-      <div class="textile-section__intro">— 絞りの多彩な世界を、写真でご覧ください —</div>
+      <hgroup>
+        <h2 class="textile-section__title">テキスタイルの紹介</h2>
+        <div class="textile-section__intro">— 絞りの多彩な世界を、写真でご覧ください —</div>
+      </hgroup>
     
       <div class="textile_list">
         <div class="textile_item">
@@ -166,6 +170,13 @@
           <p>三浦絞りと竜巻絞り</p>
         </div>
     </div>
+
+    <button class="textile-viewmore">
+      <div>
+        <p>もっと見る</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
+      </div>
+    </button>
   </div>
 
   <div class="page-top-button" id="pageTopBtn">
@@ -178,4 +189,3 @@
 
 
 <?php get_footer(); ?>
-

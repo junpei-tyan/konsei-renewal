@@ -8,10 +8,21 @@
   background: url(../images/about/about-first-view.png) no-repeat center center;
   margin-bottom: 60px; 
 }
+@media (max-width: 412px) {
+  .about-firstview {
+    background: url(../images/about/about-firstview-sp.png) no-repeat center center;
+    margin: 0 0 50px 0;
+  }
+}
 .about-firstview h1 {
   position: absolute;
   font-size: var(--xl-text-size);
   font-weight: 500;
+}
+@media (max-width: 412px) {
+  .about-firstview h1 {
+    font-size: var(--lg-text-size);
+  }
 }
 .about-firstview h1::after {
   content: "";
@@ -24,7 +35,7 @@
 }
 
 .top-section{
-background-color: var(--accent-light-color);
+  background-color: var(--accent-light-color);
 }
 
 .top-section_intro {
@@ -34,16 +45,39 @@ background-color: var(--accent-light-color);
   line-height: 36px;
   font-size: var(--md-text-size);
 }
+@media (max-width: 412px) {
+  .top-section_intro {
+    padding: 31px;
+    text-align: center;
+    line-height: 30px;
+    font-size: var(--normal-font-style);
+  }
+}
 
 
 .narumi-section{
   padding: 90px 20px 0 0;
+}
+@media (max-width: 412px) {
+  .narumi-section {
+    padding: 0 0 72px 0;
+    margin: 50px 0 -10px 0;
+    background: var(--accent-light-color);
+  }
 }
 
 .narumi-section__title{
   text-align: center;
   font-size: var(--lg-text-size);
   padding-bottom:30px;
+}
+@media (max-width: 412px) {
+  .narumi-section__title {
+    width: 353px;
+    margin: 0 auto 25px auto;
+    padding: 0;
+    font-size: var(--md-text-size);
+  }
 }
 
 .narumi-section__intro{
@@ -54,6 +88,14 @@ background-color: var(--accent-light-color);
   margin: 0 auto;
   padding-bottom:50px;
 }
+@media (max-width: 412px) {
+  .narumi-section__intro {
+    width: 353px;
+    font-size: var(--normal-font-style);
+    padding: 0;
+    margin: 0 auto 66px auto;
+  }
+}
 
 
 .narumi-section__subtitle {
@@ -61,6 +103,13 @@ background-color: var(--accent-light-color);
   color: var(--accent-color);
   margin-bottom: 16px;
   margin-top:15px;
+}
+@media (max-width: 412px) {
+  .narumi-section__subtitle {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
 }
 
 
@@ -73,12 +122,34 @@ background-color: var(--accent-light-color);
   max-width: 1100px; /* ← これで左右に余白できて見やすく！ */
   margin: 0 auto 80px; /* ← 中央寄せ */
 }
+@media (max-width: 412px) {
+  .narumi-section__item {
+    margin: 0 auto 65px;
+  }
+}
 
 
 .narumi-section__image {
   flex: 1.5; 
   min-width: 350px;
   max-width: 600px;
+}
+@media (max-width: 412px) {
+  .narumi-section__image::after {
+    content: "歌川広重『東海道五十三次 鳴海宿』";
+    display: block;
+    position: relative;
+    top: -2px;
+    padding: 4px 0 4px 26px;
+    font-size: 11px;
+    color: #fff;
+    background: var(--accent-color);
+  }
+  .narumi-section__image:nth-of-type(2)::after {
+    content: "";
+    padding: 0;
+    height: 25px;
+  }
 }
 
 .narumi-section__image img {
@@ -94,9 +165,16 @@ background-color: var(--accent-light-color);
   margin-top:12px;
   line-height: 25px;
 }
-
-.narumi-section__text {
-  line-height: 30px;
+@media (max-width: 412px) {
+  .narumi-section__text {
+    flex: none;
+    width: 354px;
+    margin: 0 auto;
+  }
+  .narumi-section__text p {
+    width: 354px;
+    font-size: 14px;
+  }
 }
 
 .full-width-section{
@@ -104,17 +182,39 @@ background-color: var(--accent-light-color);
   margin-left: calc(-50vw + 50%);
   background-color: var(--accent-light-color); /* 必要に応じて */
 }
+@media (max-width: 412px) {
+  .full-width-section {
+    width: 100vw;
+    margin: 0;
+  }
+}
 
 
 .process-section {
   background-color: var(--accent-light-color)!important;
   padding: 80px 20px;
 }
+@media (max-width: 412px) {
+  .process-section {
+    padding: 0;
+  }
+  .process-section hgroup {
+    padding: 19px 0 19px 30px;
+    color: #fff;
+    background: var(--accent-color);
+  }
+}
 
 .process-section__title {
   text-align: center;
   font-size: var(--lg-text-size);
-  padding-bottom:10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 412px) {
+  .process-section__title {
+    font-size: 20px;
+    text-align: left;
+  }
 }
 
 .process-section__intro{
@@ -125,12 +225,30 @@ background-color: var(--accent-light-color);
   margin: 0 auto;
   padding-bottom:30px;
 }
+@media (max-width: 412px) {
+  .process-section__intro {
+    font-size: 12px;
+    padding: 0;
+    text-align: left;
+  }
+  .process-section__intro span {
+    display: block;
+  }
+}
 
 .step {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+}
+@media (max-width: 412px) {
+  .step {
+    padding: 40px 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    justify-content: flex-start;
+  }
 }
 
 .step_box {
@@ -143,6 +261,15 @@ background-color: var(--accent-light-color);
   justify-content: flex-start;
   align-items: flex-start;
 }
+@media (max-width: 412px) {
+  .step_box {
+    display: block;
+    flex: none;
+    width: 250px;
+    height: 270px;
+    padding: 15px 25px;
+  }
+}
 
 .step_box img {
   width: 100%;
@@ -150,6 +277,13 @@ background-color: var(--accent-light-color);
   aspect-ratio: 4 / 3;
   object-fit: cover;
   margin-bottom: 12px;
+}
+@media (max-width: 412px) {
+  .step_box img {
+    width: 250px;
+    height: 115px;
+    border-radius: 4px;
+  }
 }
 
 .step-label {
@@ -163,17 +297,37 @@ background-color: var(--accent-light-color);
   margin-bottom: 30px;
   font-weight: bold;
 }
+@media (max-width: 412px) {
+  .step-label {
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+  }
+}
 
 .step_title {
   color: var(--accent-color);
   font-size: var(--md-text-size);
   margin: 20px;
 }
+@media (max-width: 412px) {
+  .step_title {
+    font-size: 14px;
+    margin: 0;
+  }
+}
 
 .step_box p {
   line-height: 1.8;
   font-size: 14px;
   margin:5px 20px;
+}
+@media (max-width: 412px) {
+  .step_box p {
+    font-size: 12px;
+    margin: 0;
+  }
 }
 
 .experience-section {
@@ -185,6 +339,11 @@ background-color: var(--accent-light-color);
   font-weight: 500;
   overflow: hidden;
 }
+@media (max-width: 412px) {
+  .experience-section img {
+    display: none;
+  }
+}
 
 .experience-left {
   flex: 1;
@@ -192,6 +351,11 @@ background-color: var(--accent-light-color);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 412px) {
+  .experience-left {
+    display: none;
+  }
 }
 
 .experience-right {
@@ -204,6 +368,24 @@ background-color: var(--accent-light-color);
   text-decoration: none;
   font-family: var(--normal-font-style);
   font-weight: bold;
+}
+@media (max-width: 412px) {
+  .experience-right {
+    display: flex;
+    flex: none;
+    width: 100vw;
+    text-align: center;
+    font-weight: normal;
+  }
+  .experience-right::after {
+    content: "";
+    display: block;
+    position: relative;
+    background: url(../images/icon/arrow-white.svg) no-repeat center center;
+    width: 27.5px;
+    height: 27.5px;
+    rotate: 90deg;
+  }
 }
 
 .arrow {
@@ -220,11 +402,21 @@ background-color: var(--accent-light-color);
   padding: 60px 20px;
   text-align: center;
 }
+@media (max-width: 412px) {
+  .textile-section {
+    padding: 75px 0 0 0;
+  }
+}
 
 .textile-section__title {
   text-align: center;
   font-size: var(--lg-text-size);
   padding-bottom: 10px;
+}
+@media (max-width: 412px) {
+  .textile-section__title {
+    font-size: 20px;
+  }
 }
 
 .textile-section__intro{
@@ -235,6 +427,12 @@ background-color: var(--accent-light-color);
   margin: 0 auto;
   padding-bottom:20px;
 }
+@media (max-width: 412px) {
+  .textile-section__intro {
+    font-size: 12px;
+    padding: 0;
+  }
+}
 
 .textile-box {
   background-color: var(--base-color);
@@ -242,11 +440,29 @@ background-color: var(--accent-light-color);
   max-width: 1000px;
   margin: 0 auto;
 }
+@media (max-width: 412px) {
+  .textile-box {
+    padding: 0;
+  }
+  .textile-box hgroup {
+    padding: 10px 0;
+    color: #fff;
+    background: var(--accent-color);
+  }
+}
 
 .textile_list {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 32px;
+}
+@media (max-width: 412px) {
+  .textile_list {
+    display: block;
+    height: 764px;
+    padding: 43px 0;
+    overflow: hidden;
+  }
 }
 
 
@@ -254,6 +470,15 @@ background-color: var(--accent-light-color);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 412px) {
+  .textile_item {
+    margin: 0 0 50px 0;
+  }
+  .textile_item img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* 最後のアイテムが一つだけの段で中央に寄せる */
@@ -267,4 +492,27 @@ background-color: var(--accent-light-color);
   margin-top: 12px;
   font-size: var(--sm-text-size);
   color: #000000;
+}
+
+.textile-viewmore {
+  display: none;
+}
+@media (max-width: 412px){
+  .textile-viewmore {
+    display: block;
+    width: 100vw;
+    padding: 20px 0;
+    background: var(--accent-color);
+    color: #fff;
+  }
+}
+.textile-viewmore>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textile-viewmore img {
+  width: 30px;
+  height: 30px;
+  rotate: 180deg;
 }
