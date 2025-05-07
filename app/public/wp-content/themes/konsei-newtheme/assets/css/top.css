@@ -5,7 +5,7 @@
   background: url(../images/top/top-first-view.jpg) no-repeat center center;
   background-size: cover;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-first-view {
     height: 600px;
   }
@@ -18,7 +18,7 @@
   font-size: 64px;
   margin: 0 60px 60px 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-first-view h1 {
     display: none;
   }
@@ -26,7 +26,7 @@
 .first-view-text-sp {
   display: none;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .first-view-text-sp {
     display: block;
     padding: 50px 0 0 206px;
@@ -46,7 +46,7 @@
   color: #fff;
   padding: 150px 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view {
     padding: 75px 0;
   }
@@ -55,7 +55,7 @@
   display: flex;
   margin: 0 0 150px 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-top {
     flex-direction: column-reverse;
     margin: 0 0 75px 0;
@@ -74,7 +74,7 @@
 body.lang-en .second-view-top-text {
   padding: 38px 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-top-text {
     width: 100vw;
     padding: 35px 0;
@@ -83,7 +83,7 @@ body.lang-en .second-view-top-text {
 .second-view-top-text p {
   margin: 0 0 0 55px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-top-text p {
     width: 240px;
     text-align: center;
@@ -101,7 +101,7 @@ body.lang-en .second-view-top-text {
   background: url(../images/top/second-view-top.png) no-repeat center center;
   z-index: 1;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-top-image {
     width: 100vw;
     height: 318px;
@@ -118,7 +118,7 @@ body.lang-en .second-view-top-text {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 2;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-top-image::after {
     width: 100vw;
     height: 318px;
@@ -128,7 +128,7 @@ body.lang-en .second-view-top-text {
   display: flex;
   height: 556px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom {
     flex-direction: column;
   }
@@ -140,7 +140,7 @@ body.lang-en .second-view-top-text {
   height: 556px;
   background: var(--accent-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-text  {
     position: relative;
     display: flex;
@@ -156,7 +156,7 @@ body.lang-en .second-view-top-text {
   border-bottom: solid 1px #fff;
   font-size: var(--xl-text-size);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-text h5 {
     width: 150px;
     margin: 36px auto 20px auto;
@@ -168,7 +168,7 @@ body.lang-en .second-view-top-text {
   font-size: var(--main-text-size);
   margin: 0 0 0 100px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-text p {
     width: 300px;
     line-height: 30px;
@@ -179,7 +179,7 @@ body.lang-en .second-view-top-text {
 .second-view-bottom-text p:nth-of-type(2) {
   margin: 0 0 45px 100px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-text p:nth-of-type(2) {
     margin: 0 auto 35px auto;
   }
@@ -191,7 +191,7 @@ body.lang-en .second-view-top-text {
   background: url(../images/top/second-view-bottom3.png) no-repeat center center;
   z-index: 2;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-images {
     width: 411.8px;
     height: 318px;
@@ -202,7 +202,7 @@ body.lang-en .second-view-top-text {
   bottom: 0;
   left: 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-images img:nth-of-type(1) {
     width: 150px;
     height: 150px;
@@ -213,7 +213,7 @@ body.lang-en .second-view-top-text {
   top: 0;
   right: 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-images img:nth-of-type(2) {
     width: 200px;
     height: 200px;
@@ -226,7 +226,7 @@ body.lang-en .second-view-top-text {
   padding: 10px 30px;
   border: solid 1px #fff;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .second-view-bottom-link {
     display: flex;
     align-items: center;
@@ -244,7 +244,7 @@ body.lang-en .second-view-top-text {
 .top-experience-section {
   margin: 114px 0 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-section {
     margin: 300px 0 0 0;
   }
@@ -255,7 +255,7 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-title-container {
     width: 300px;
   }
@@ -276,7 +276,7 @@ body.lang-en .second-view-top-text {
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-title-container span {
     display: none;
   }
@@ -287,7 +287,7 @@ body.lang-en .second-view-top-text {
 .top-experience-title-container span:nth-of-type(2) {
   margin: 0 63px 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-title-container h3 {
     width: 200px;
     padding: 20px 0;
@@ -304,7 +304,7 @@ body.lang-en .second-view-top-text {
   margin: 50px 0 0 0;
   background: var(--accent-light-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-content {
     overflow: auto;
   }
@@ -320,7 +320,7 @@ body.lang-en .second-view-top-text {
 .top-experience-card:hover {
   transform: scale(1.03);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card {
     width: 300px;
     height: 300px;
@@ -335,7 +335,7 @@ body.lang-en .second-view-top-text {
   color: var(--accent-color);
   background: var(--base-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card button {
     width: 135px;
     height: 50px;
@@ -347,7 +347,7 @@ body.lang-en .second-view-top-text {
   height: 400px;
   background: url(../images/top/sekka-shibori.jpg) no-repeat center center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card__sekka-shibori {
     width: 300px;
     height: 300px;
@@ -358,7 +358,7 @@ body.lang-en .second-view-top-text {
   height: 400px;
   background: url(../images/top/group-image.jpg) no-repeat center center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card__group {
     width: 300px;
     height: 300px;
@@ -369,7 +369,7 @@ body.lang-en .second-view-top-text {
   height: 400px;
   background: url(../images/denim-image.png) no-repeat center center;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card__denim {
     width: 300px;
     height: 300px;
@@ -385,7 +385,7 @@ body.lang-en .second-view-top-text {
   border-radius: 0 0 12px 12px;
   background: var(--base-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card-title {
     top: 250px;
     width: 320px;
@@ -404,7 +404,7 @@ body.lang-en .second-view-top-text {
 .top-experience-card-title span {
   font-size: var(--md-text-size);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card-title span {
     font-size: var(--main-text-size);
   }
@@ -415,7 +415,7 @@ body.lang-en .second-view-top-text {
   border-radius: 0 0 0 12px;
   background: var(--accent-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card-left {
     width: 135px;
     height: 50px;
@@ -427,7 +427,7 @@ body.lang-en .second-view-top-text {
   background: var(--accent-color);
   clip-path: polygon(0 0, 0% 100%, 100% 0);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-experience-card-stalk {
     width: 50px;
     height: 50px;
@@ -441,7 +441,7 @@ body.lang-en .second-view-top-text {
 .top-guest-section {
   margin: 225px 0 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-section {
     margin: 84px 0 0 0;
   }
@@ -452,7 +452,7 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-title-container {
     width: 300px;
   }
@@ -473,7 +473,7 @@ body.lang-en .second-view-top-text {
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-title-container span {
     display: none;
   }
@@ -484,7 +484,7 @@ body.lang-en .second-view-top-text {
 .top-guest-title-container span:nth-of-type(2) {
   margin: 0 63px 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-section h3 {
     width: 200px;
     padding: 20px 0;
@@ -499,7 +499,7 @@ body.lang-en .second-view-top-text {
   height: 855px;
   background: var(--accent-light-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-content {
     margin: 30px 0 0 0;
     height: 1000px;
@@ -508,7 +508,7 @@ body.lang-en .second-view-top-text {
 .top-guest-images {
   position: absolute;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-images {
     display: flex;
     padding: 60px 0;
@@ -521,7 +521,7 @@ body.lang-en .second-view-top-text {
   border: solid 10px #fff;
   border-radius: 12px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-images img {
     position: static;
     width: 250px;
@@ -567,7 +567,7 @@ body.lang-en .second-view-top-text {
   top: 48px;
   left: 920px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-shiboinu {
     position: relative;
     width: 100vw;
@@ -582,7 +582,7 @@ body.lang-en .second-view-top-text {
   height: 266px;
   background: url(../images/top/top-experience-comment.svg) no-repeat top left;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-shiboinu-comment {
     top: 50px;
     left: 135px;
@@ -596,7 +596,7 @@ body.lang-en .second-view-top-text {
   font-size: var(--label-text-size);
   font-weight: bold;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-shiboinu-comment p {
     position: relative;
     width: 256px;
@@ -615,7 +615,7 @@ body.lang-en .second-view-top-text {
   left: 250px;
   bottom: 75px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-shiboinu-image {
     width: 150px;
     height: 170px;
@@ -639,7 +639,7 @@ body.lang-en .second-view-top-text {
   font-family: var(--normal-font-style);
   font-weight: bold;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-link {
     position: static;
     width: 100vw;
@@ -651,7 +651,7 @@ body.lang-en .second-view-top-text {
 .top-guest-link img {
   rotate: 90deg;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-link img {
     width: 45px;
     height: 45px;
@@ -660,7 +660,7 @@ body.lang-en .second-view-top-text {
 .top-guest-description {
   display: none;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-guest-description {
     position: relative;
     display: block;
@@ -685,7 +685,7 @@ body.lang-en .second-view-top-text {
 .top-info-section {
   margin: 150px 0 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-section {
     margin: 75px 0 0 0;
   }
@@ -696,7 +696,7 @@ body.lang-en .second-view-top-text {
   align-items: center;
   margin: 0 auto;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-title-container {
     width: 300px;
   }
@@ -717,7 +717,7 @@ body.lang-en .second-view-top-text {
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-title-container span {
     display: none;
   }
@@ -728,7 +728,7 @@ body.lang-en .second-view-top-text {
 .top-info-title-container span:nth-of-type(2) {
   margin: 0 27px 0 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-section h3 {
     width: 300px;
     padding: 20px 0;
@@ -741,7 +741,7 @@ body.lang-en .second-view-top-text {
   width: 950px;
   margin: 100px auto 0 auto;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-content>ul {
     width: 300px;
     margin: 30px auto 0 auto;
@@ -752,7 +752,7 @@ body.lang-en .second-view-top-text {
   padding: 48px 0;
   border-top: solid 1px #000;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-item {
     display: inline-block;
     width: 300px;
@@ -776,7 +776,7 @@ body.lang-en .second-view-top-text {
   background: var(--accent-color);
   font-family: var(--normal-font-style);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-info-item span {
     width: 89px;
     height: 25px;
@@ -792,7 +792,7 @@ body.lang-en .second-view-top-text {
 .top-access-section {
   margin: 150px 0 90px 0;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-access-section {
     margin: 100px 0 0 0;
   }
@@ -801,7 +801,7 @@ body.lang-en .second-view-top-text {
   width: 100vw;
   height: 423px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .google-map iframe {
     width: 100vw;
     height: 400px;
@@ -813,14 +813,14 @@ body.lang-en .second-view-top-text {
   margin: 114px auto 0 auto;
   justify-content: space-between;
 }
-@media screen and (max-width: 412px)  {
+@media (max-width: 412px)  {
   .top-access-content {
     flex-direction: column;
     width: 100vw;
     margin: 40px auto 0 auto;
   }
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .parking-area-map-image {
     width: 300px;
     height: 210px;
@@ -830,7 +830,7 @@ body.lang-en .second-view-top-text {
 .top-access-text {
   margin: 0 0 0 95px;
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-access-text {
     padding: 30px 0;
     margin: 0;
@@ -842,7 +842,7 @@ body.lang-en .second-view-top-text {
   line-height: 35px;
   font-family: var(--normal-font-style);
 }
-@media screen and (max-width: 412px) {
+@media (max-width: 412px) {
   .top-access-text p {
     font-size: 14px;
     line-height: 20px;
