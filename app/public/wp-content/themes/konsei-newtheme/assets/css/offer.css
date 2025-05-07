@@ -12,6 +12,11 @@
   font-size: var(--xl-text-size);
   font-weight: 500;
 }
+@media (max-width: 412px) {
+  .offer-firstview h1 {
+    font-size: var(--lg-text-size);
+  }
+}
 .offer-firstview h1::after {
   content: "";
   display: block;
@@ -26,9 +31,19 @@
   background: var(--accent-light-color);
   text-align: center;
 }
+@media (max-width: 412px) {
+  .phone-section {
+    padding: 40px 30px;
+  }
+}
 .phone-section p {
   line-height: 25px;
   font-family: var(--normal-font-style);
+}
+@media (max-width: 412px) {
+  .phone-section p {
+    font-size: 14px;
+  }
 }
 .phone-section p:nth-of-type(3) {
   margin: 20px 0 0 0;
@@ -44,25 +59,62 @@
   align-items: center;
   gap: 10px;
 }
+@media (max-width: 412px) {
+  .phone-button {
+    width: 255px;
+    margin: 40px auto 5px auto;
+  }
+  .phone-button img {
+    width: 25px;
+    height: 25px;
+  }
+}
 .phone-button p {
   color: #fff;
   font-size: var(--md-text-size);
   font-family: var(--normal-font-style);
+}
+@media (max-width: 412px) {
+  .phone-button p {
+    font-size: var(--normal-font-style);
+  }
 }
 .calender-section {
   width: 1000px;
   margin: 90px auto 0 auto;
   font-family: var(--normal-font-style);
 }
+@media (max-width: 412px) {
+  .calender-section {
+    width: 350px;
+  }
+}
 .calender-section h4 {
   font-size: var(--md-text-size);
   margin: 0 0 10px 0;
 }
+@media (max-width: 412px) {
+  .calender-section h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
 .calender-section p {
   line-height: 22.5px;
 }
-.calender-section p:nth-of-type(1), .calender-section p:nth-of-type(3) {
+@media (max-width: 412px) {
+  .calender-section p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.calender-section p:is(:nth-of-type(1), :nth-of-type(3)) {
   margin: 0 0 15px 0;
+}
+@media (max-width: 412px) {
+  .calender-section p:is(:nth-of-type(1), :nth-of-type(3)) {
+    margin: 0 0 10px 0;
+  }
 }
 .calender-section span {
   color: var(--emphasis-color);
@@ -71,33 +123,80 @@
   width: 920px;
   margin: 20px auto 40px auto;
 }
+@media (max-width: 412px) {
+  .google-calendar {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 50px 0 15px 0;
+  }
+}
 .google-calendar iframe {
   width: 920px;
   height: 400px;
+}
+@media (max-width: 412px) {
+  .google-calendar iframe {
+    width: 100vw;
+    height: 200px;
+  }
+}
+@media (max-width: 412px) {
+  .google-calender-text p {
+    font-size: 12px;
+  }
 }
 .offer-form-section {
   width: 942px;
   margin: 83px auto 0 auto;
   font-family: var(--normal-font-style);
 }
+@media (max-width: 412px) {
+  .offer-form-section {
+    width: 350px;
+    margin: 75px auto 0 auto;
+  }
+}
 .offer-form-section h4 {
   font-size: var(--md-text-size);
   text-align: center;
   margin: 0 0 20px 0;
+}
+@media (max-width: 412px) {
+  .offer-form-section h4 {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+  }
 }
 .offer-form {
   padding: 45px 0;
   border-top: solid 1px #000;
   border-bottom: solid 1px #000;
 }
+@media (max-width: 412px) {
+  .offer-form {
+    padding: 30px 0;
+  }
+}
 .offer-form form {
   width: 600px;
   margin: 0 auto;
+}
+@media (max-width: 412px) {
+  .offer-form form {
+    width: 295px;
+  }
 }
 .offer-form form>div {
   display: flex;
   margin: 35px 0 0 0;
   flex-direction: column;
+}
+@media (max-width: 412px) {
+  .offer-form form>div {
+    margin: 20px 0 0 0;
+  }
 }
 .offer-form label {
   display: inline-block;
@@ -105,10 +204,23 @@
   margin: 0 13px 0 0;
   font-size: var(--label-text-size);
 }
+@media (max-width: 412px) {
+  .offer-form label {
+    font-size: 14px;
+  }
+}
 .offer-form input {
   border: solid 1px #000;
   border-radius: 4px;
+  width: 600px;
   height: 40px;
+}
+@media (max-width: 412px) {
+  .offer-form input {
+    width: 295px;
+    height: 35px;
+    font-size: 14px;
+  }
 }
 .offer-form select {
   border: solid 1px #000;
@@ -133,9 +245,6 @@
   background: var(--emphasis-color);
   border-radius: 2px;
 }
-.offer-form input {
-  width: 600px;
-}
 .offer-form__name-fields input {
   width: 295px;
   box-sizing: border-box;
@@ -143,6 +252,12 @@
 .offer-form__name-fields div:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 412px) {
+  .offer-form__name-fields div:nth-of-type(2) {
+    height: 80px;
+    flex-direction: column;
+  }
 }
 .offer-form__desired-fields input {
   width: 167px;
@@ -160,6 +275,12 @@
 .offer-form p {
   margin: 35px 0 0 0;
 }
+@media (max-width: 412px) {
+  .offer-form p {
+    margin: 25px 0 0 0;
+    font-size: 12px;
+  }
+}
 .offer-form button {
   font-size: var(--label-text-size);
   color: #fff;
@@ -169,6 +290,13 @@
   background: var(--accent-color);
   border-radius: 30px;
 }
+@media (max-width: 412px) {
+  .offer-form button {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
 .contact-link-section {
   display: flex;
   justify-content: center;
@@ -177,6 +305,11 @@
   height: 322px;
   margin: 113px 0 0 0;
   text-align: center;
+}
+@media (max-width: 412px) {
+  .contact-link-section {
+    height: 180px;
+  }
 }
 .contact-link-section a {
   display: flex;
@@ -190,4 +323,11 @@
   font-family: var(--normal-font-style);
   font-size: var(--label-text-size);
   color: #fff;
+}
+@media (max-width: 412px) {
+  .contact-link-section a {
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
 }
