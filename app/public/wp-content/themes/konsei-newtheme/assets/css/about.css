@@ -5,12 +5,12 @@
   width: 100vw;
   height: 500px;
   color: #fff;
-  background: url(../images/about/about-first-view.png) no-repeat center center;
+  background: url(../images/about/about-first-view.jpg) no-repeat center center;
   margin-bottom: 60px; 
 }
 @media (max-width: 412px) {
   .about-firstview {
-    background: url(../images/about/about-firstview-sp.png) no-repeat center center;
+    background: url(../images/about/about-firstview-sp.jpg) no-repeat center center;
     margin: 0 0 50px 0;
   }
 }

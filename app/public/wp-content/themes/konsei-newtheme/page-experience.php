@@ -22,7 +22,7 @@
       <h2 class="about-dantai">団体様向け体験について</h2>
       <div class="dantai">
         <div class="about-group-top">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/group.png" alt="group-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/group.jpg" alt="group-image">
 
           <div class="about-group-top-text">
             <p>Tシャツ、ハンカチ、手ぬぐい、ストール等、各種絞り染め体験を行っております。</p>
@@ -39,13 +39,13 @@
             <p>弊社では、化学染料を使用しております。色のバリエーションが豊富で、色もちも良く、初めての方でも安心して染色していいただけます。</p>
           </div>
 
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/shirt.png" alt="shirt-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/shirt.jpg" alt="shirt-image">
         </div>
       </div>
 
     <div class="background2">
         <div class="design-box">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.png" alt="towel-belt-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.jpg" alt="towel-belt-image">
           <ul>
             <li>
               <p>自分で表紙をデザインできます。</p>
@@ -64,7 +64,7 @@
     <!-- 雪花絞り -->
     <div class="tab-content active" id="yukata">
       <div class="sekka-shibori-firstview">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/sekka-shibori-firstview.jpg" alt="sekka-shibori-firstview">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/sekka-shibori-firstview copy.jpg" alt="sekka-shibori-firstview">
         <h2>雪花絞り（浴衣の反物）</h2>
       </div>
       <h2 class="naiyou selected-h2">【体験内容】</h2>
@@ -92,22 +92,22 @@
             <p>&emsp;初めての方でも安心して染色いただけます。</p>
         </ol>
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image8.png" alt="experience-shibori-image1">  
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image8.jpg" alt="experience-shibori-image1">  
       </div>
 
       <h2 class="selected-h2">【お選びいただける柄（4種）】</h2>
 
       <ul class="gar">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image4.jpeg" alt="experience-shibori-image2"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image5.jpeg" alt="experience-shibori-image3"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image6.jpeg" alt="experience-shibori-image4"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image7.jpeg" alt="experience-shibori-image5"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image4.jpg" alt="experience-shibori-image2"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image5.jpg" alt="experience-shibori-image3"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image6.jpg" alt="experience-shibori-image4"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/shibori-image7.jpg" alt="experience-shibori-image5"></li>
       </ul>
 
       <h2 class="selected-h2">【お選びいただける色（10種）】</h2>
 
       <div class="inu">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/10-colors.png" alt="10-colors-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/10-colors.jpg" alt="10-colors-image">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/shiboinu-comment.png" alt="shiborinu-comment-image">  
       </div>
 
@@ -181,9 +181,9 @@
 
           </div>
           <ul class="option">
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/kuro-kiji.jpg" alt="kuro-kiji-image"><p>黒生地</p></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/mutsu-ori.png" alt="mtsu-ori-image"><p>六つ折り</p></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/gradation.png" alt="gradation-image"><p>グラデーション</p></li>
+            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/kuro-kiji copy.jpg" alt="kuro-kiji-image"><p>黒生地</p></li>
+            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/mutsu-ori.jpg" alt="mtsu-ori-image"><p>六つ折り</p></li>
+            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/gradation.jpg" alt="gradation-image"><p>グラデーション</p></li>
           </ul>
           <h2 class="selected-h2">ー&emsp;動画撮影オプション&emsp;ー</h2>
 
@@ -198,7 +198,7 @@
 
           <div class="but">
             <a>参考動画はこちら</a> 
-            <a href="https://shiborikonsei.com/ews/uploads/2024/11/asukyan.jpeg" class="button">動画撮影のオプションはこちら</a>
+            <a href="https://shiborikonsei.com/ews/uploads/2024/11/asukyan.jpg" class="button">動画撮影のオプションはこちら</a>
           </div>
           <div class="huru">
             <h2>【ふるさと納税でもご利用いただけます！】</h2>
@@ -235,7 +235,7 @@
         </div>
         <div class="background2">
           <div class="design-box">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.png" alt="towel-belt-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.jpg" alt="towel-belt-image">
             <ul>
               <li>
                 <p>自分で表紙をデザインできます。</p>
@@ -253,7 +253,7 @@
 
     <div class="tab-content" id="denim">
       <div class="kasaneru">
-        <img class="seka" src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-firstview.png" alt="denim-firstview">
+        <img class="seka" src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-firstview.jpg" alt="denim-firstview">
         <h2>デニム生地</h2>
       </div>
 
@@ -271,7 +271,7 @@
             <p>※広幅の生地をカットしていて生地端は切りっぱなしです</p>
           </div>
         
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-kimono.png" alt="denim-kimono-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/denim-kimono.jpg" alt="denim-kimono-image">
         </div>
       </div>
 
@@ -282,8 +282,8 @@
         </div>
 
         <ul class="gar">
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/crushed-pattern.png" alt="crushed-pattern-image"><p>クラッシュ柄</p></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/striped-pattern.png" alt=""><p>横縞柄</p></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/crushed-pattern.jpg" alt="crushed-pattern-image"><p>クラッシュ柄</p></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/striped-pattern.jpg" alt=""><p>横縞柄</p></li>
         </ul>
       </div>
 
@@ -366,7 +366,7 @@
         </div>
         <div class="background2">
           <div class="design-box">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.png" alt="towel-belt-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/experience/towel-belt.jpg" alt="towel-belt-image">
             <ul>
               <li>
                 <p>自分で表紙をデザインできます。</p>
