@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/company.css">
 
 <main>
-  <div class="page-title">
+  <div class="page-title company-first-view">
     <h2>会社概要</h2>
   </div>
 
