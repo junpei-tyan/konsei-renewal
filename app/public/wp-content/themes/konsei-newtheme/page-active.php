@@ -34,7 +34,7 @@
 
     <div class="experience-block">
       <div class="experience-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/school.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/school.jpg">
       </div>
       <div class="experience-text">
         <h3>地域学習としての体験授業</h3>
@@ -50,16 +50,16 @@
       <h3>海外交流イベント</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Italy.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Italy.jpg">
           <p>イタリア トリノ市で友好姉妹都市イベント</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/America.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/America.jpg">
           <p>アメリカロサンゼルス市
           <br>友好姉妹都市イベントにて</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Australia.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/Australia.jpg">
           <p>オーストラリアの交換留学生たちの絞り染め体験
           <br>ー大府市の小学校さんにてー</p>
         </div>
@@ -70,16 +70,16 @@
       <h3>その他ワークショップ</h3>
       <div class="event-grid">
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/police.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/police.jpg">
           <p>緑警察署 南警察署 中川警察署 
           <br>青少年立ち直り支援の一環として</p>
         </div>
         <div class="event-item">
-         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.png">
+         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.jpg">
           <p>世界コスプレサミット2023</p>
         </div>
         <div class="event-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/univer.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/univer.jpg">
           <p>名古屋大学 天野教授物理学会にて 絞り染め体験</p>
         </div>
       </div>
@@ -106,15 +106,15 @@
 
       <div class="product-grid">
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods.jpg">
           <p>絞りアクセサリー</p>
         </div>
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods2.jpg">
           <p>雪花絞りの手拭い</p>
         </div>
         <div class="product-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods3.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/goods3.jpg">
           <p>鳴海絞マスク</p>
         </div>
       </div>
@@ -135,13 +135,13 @@
         </p>
         <div class="store-item-grid">
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.jpg">
           </div>
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store2.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store2.jpg">
           </div>
           <div class="store-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store3.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store3.jpg">
           </div>
         </div>
       </div>
@@ -162,8 +162,8 @@
     <div class="products-container">
       <div class="product-section">
         <div class="product-images">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga1.png">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga1.jpg">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/yoga2.jpg">
         </div>
         <div class="product-description">
           <h3>エアリアルサロンラピタ 空中ヨガ用ハンモック</h3>
@@ -180,17 +180,17 @@
       <div class="product-grid">
         <div class="product-item">
           <h4>愛知県の木材に絞り染めを！</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/store1.jpg">
           <p>愛知県産の木材に絞り染めで、<br>和のぬくもりとモダンデザインが融合</p>
         </div>
         <div class="product-item">
           <h4>形状記憶商品</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/new2.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/new2.jpg">
           <p>新しい“カタチ”を記憶する、しぼりの可能性</p>
         </div>
         <div class="product-item">
           <h4>名古屋栄 オアシス21 観光案内所</h4>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sakae.jpg">
           <p>伝統をカプセルに詰め込んで、あなたの元へ</p>
         </div>
       </div>
@@ -206,7 +206,7 @@
   <div class="oem-section">
     <div class="oem-top">
       <div class="oem-label">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sousou.png" alt="ラベル画像">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sousou.jpg" alt="ラベル画像">
       </div>
       <div class="oem-description">
         <h3>絞りの伝統を現代の暮らしへ。<br>ファッションとして息づく、日本の技。</h3>
@@ -223,7 +223,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou1.png">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou2.png">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou3.png">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou4.png">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/results/sou4.jpg">
     </div>
   </div>
 
