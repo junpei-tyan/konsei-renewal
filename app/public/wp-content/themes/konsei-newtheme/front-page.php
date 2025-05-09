@@ -6,10 +6,10 @@
   <div class="top-first-view">
     <h1 data-i18n="first-view-text">有松・鳴海絞り</h1>
 
-    <div class="first-view-text-sp">
+    <hgroup class="first-view-text-sp">
       <h2>有松</h2>
       <h2>鳴海絞り</h2>
-    </div>
+    </hgroup>
   </div>
 
   <div class="second-view">
@@ -21,15 +21,18 @@
         <p data-i18n="second-view-top-text4">そして、みなさんに絞り染めを体験していただける機会を</p>
         <p data-i18n="second-view-top-text5">もっともっと増やしていきたい</p>
       </div>
+
       <div class="second-view-top-image">
         <!-- background image -->
       </div>
     </div>
+
     <div class="second-view-bottom">
       <div class="second-view-bottom-images">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/second-view-bottom1.png" alt="second-view-bottom-image1">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/second-view-bottom2.png" alt="second-view-bottom-image2">
       </div>
+
       <section class="second-view-bottom-text">
         <h5 data-i18n="second-view-bottom-title">絞りについて</h5>
 
@@ -46,7 +49,7 @@
   </div>
 
   <section class="top-experience-section">
-    <div class="top-experience-title-container">
+    <div class="h3-title-container">
       <span></span>
       <h3 data-i18n="top-experoence-title">体験のご紹介</h3>
       <span></span>
@@ -104,6 +107,7 @@
       <h3 data-i18n="top-guest-title">お客様のページ</h3>
       <span></span>
     </div>
+
     <div class="top-guest-content">
       <div class="top-guest-images">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/guest-image1.jpg" alt="top-guest-image1" class="top-guest-image1">
@@ -111,18 +115,22 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/guest-image3.jpg" alt="top-guest-image3" class="top-guest-image3">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/guest-image4.jpg" alt="top-guest-image4" class="top-guest-image4">
       </div>
+
       <div class="top-guest-shiboinu">
         <div class="top-guest-shiboinu-comment">
           <p data-i18n="top-guest-shiboinu-text1">お客様から届いた</p>
           <p data-i18n="top-guest-shiboinu-text2">お声やお写真を紹介しているワン！</p>
           <p data-i18n="top-guest-shiboinu-text3">是非見ていって欲しいワン！</p>
         </div>
+
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shiboinu.png" alt="shiboinu-image" class="top-guest-shiboinu-image">
       </div>
+
       <a href="<?php echo home_url() ?>/guest" class="top-guest-link">
         <span data-i18n="top-guest-link">もっと見る</span>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/arrow-white.svg" alt="arrow-icon">
       </a>
+
       <div class="top-guest-description">
         <p>マスコットキャラクター</p>
         <h6>シボ犬</h6>
@@ -136,6 +144,7 @@
       <h3 data-i18n="top-info-title">お知らせ・最新情報</h3>
       <span></span>
     </div>
+
     <div class="top-info-content">
       <ul>
         <li class="top-info-item">
@@ -162,8 +171,10 @@
     <div class="google-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.5161444338123!2d136.95413073901133!3d35.07722827882573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037c908803f8d1%3A0x6f003b2a71a3059!2z77yI5pyJ77yJ44GT44KT44Gb44GE!5e0!3m2!1sja!2sjp!4v1745136631675!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+
     <div class="top-access-content">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/parking-area-map.jpg" alt="parking-area-map" class="parking-area-map-image">
+
       <div class="top-access-text">
         <p>〒458-0801</p>
         <p data-i18n="top-access-text1">名古屋市緑区鳴海町字下中21番地</p>
