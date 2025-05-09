@@ -90,31 +90,31 @@
         <div class="photo-box">
             <div class="images-grid">
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo1.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo1.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo2.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo2.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo3.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo3.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo4.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo4.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo5.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo5.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo6.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo6.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo7.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo7.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo8.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo8.jpg">
                 </div>
                 <div class="images-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo9.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/guest/photo9.jpg">
                 </div>
             </div>
 
