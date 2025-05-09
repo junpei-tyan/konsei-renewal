@@ -1,9 +1,11 @@
+/* ====== 共通設定(style.cssに書き込み済み) ====== */
+
+/* img {
+  width: 100%;
+}
+
 .page-title {
   position: relative;
-  background: url(../images/company/company-first-view.png) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 500px;
 }
 .page-title h2{
   position: absolute;
@@ -15,6 +17,23 @@
   color: #fff;
   font-size: var(--xl-text-size);
   border-bottom: solid 1px #fff;
+} */
+
+/* =====================================z */
+
+
+
+.company-first-view {
+  background: url(../images/company/company-first-view.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 412px) {
+  .company-first-view {
+    background: url(../images/company/company-first-view-sp.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
 
 .profile,
@@ -29,10 +48,23 @@
   margin: 150px auto;
   font-size: 18px;
 }
+@media (max-width: 412px) {
+  .profile {
+    max-width: 370px;
+    margin: 100px auto;
+  }
+}
 .profile-table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   line-height: 1.5;
+  margin: 0 5%;
+}
+@media (max-width: 412px) {
+  .profile-table {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .profile-table th,
 .profile-table td {
@@ -40,8 +72,19 @@
   text-align: left;
   border-bottom: solid 1px #000;
 }
+@media (max-width: 412px) {
+  .profile-table th,
+  .profile-table td {
+    padding: 20px 10px;
+  }
+}
 .profile-table th {
   width: 150px;
+}
+@media (max-width: 412px) {
+  .profile-table th {
+    width: 80px;
+  }
 }
 
 .access {
@@ -51,13 +94,23 @@
   gap: 50px;
   margin: 100px auto;
 }
+@media (max-width: 412px) {
+  
+}
 .access-title-container {
   display: flex;
-  width: 750px;
+  width: 50%;
   align-items: center;
   margin: 0 auto;
 }
-.access h3{
+@media (max-width: 412px) {
+  .access-title-container {
+    background-color: var(--accent-color);
+    width: 100%;
+    height: 90px;
+  }
+}
+.access h3 {
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
@@ -66,12 +119,25 @@
   font-family: var(--normal-font-style);
   font-weight: bold;
 }
+@media (max-width: 412px) {
+  .access h3 {
+    width: 200px;
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+  }
+}
 .access-title-container span {
   display: inline-block;
-  width: 200px;
+  width: 30%;
   height: 7px;
   border-top: solid 1px var(--accent-color);
   border-bottom: solid 1px var(--accent-color);
+}
+@media (max-width: 412px) {
+  .access-title-container span {
+    display: none;
+  }
 }
 .access-title-container span:nth-of-type(1) {
   margin: 0 0 0 63px;
@@ -79,13 +145,55 @@
 .access-title-container span:nth-of-type(2) {
   margin: 0 63px 0 0;
 }
+iframe[src*="www.google.com/maps/embed"] {
+	aspect-ratio: 3 / 1;
+	width: 100%;
+	height: auto;
+}
+@media (max-width: 412px) {
+  iframe[src*="www.google.com/maps/embed"] {
+    aspect-ratio: 3 / 2;
+  }
+}
 .access-adress {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
+  max-width: 880px;
+  margin: 0 5%;
 }
+@media (max-width: 412px) {
+  .access-adress {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.parking-map-container,
+.address-txt {
+  max-width: 50%;
+  height: auto;
+}
+@media (max-width: 412px) {
+  .parking-map-container,
+  .address-txt {
+    max-width: 100%;
+  }
+}
+
 .address-txt {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  gap: 40px;
+}
+@media (max-width: 412px) {
+  .address-txt {
+    text-align: center;
+  }
+}
+.address-01,
+.address-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
