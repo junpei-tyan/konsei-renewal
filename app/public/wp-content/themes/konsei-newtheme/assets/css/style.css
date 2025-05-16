@@ -14,6 +14,7 @@
 
   --label-text-size: 20px;
 
+  --mincho-font-style: 'Noto Serif JP', serif;
   --normal-font-style: "Ubuntu", sans-serif;
   --emphasis-font-style: "yu-gothic", sans-serif;
 }
@@ -149,7 +150,33 @@ main {
   padding: 0 20px;
   color: #fff;
   font-size: var(--xl-text-size);
+  font-family: var(--mincho-font-style);
   border-bottom: solid 1px #fff;
+}
+
+.phone-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--accent-light-color);
+  padding: 70px 25%;
+  text-align: center;
+}
+.phone-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--accent-color);
+  font-size: 24px;
+  color: #fff;
+  width: 270px;
+  padding: 12px 30px;
+  margin: 0 auto 20px auto;
+  border-radius: 50px;
+}
+.phone-icon {
+  width: 35px;
+  padding-top: 3px;
 }
 
 /* ========== ↓ lang-en ↓ ========== */
